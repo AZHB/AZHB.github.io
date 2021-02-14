@@ -4,9 +4,9 @@ layout: default
 
 <table>
   <tr>
-    <td> <img src="websiteContact.png" alt="Snow" width="100" height="100"> </td>
-    <td> <img src="websiteProjects.png" alt="Forest" width="100" height="100"> </td>
-    <td> <img src="websiteAbout.png" alt="Mountains" width="100" height="100"> </td>
+    <td> <a href="https://azhb.github.io/contact/"> <img src="websiteContact.png" alt="Snow" width="100" height="100"> </a> </td>
+    <td> <a href="https://azhb.github.io/projects/"> <img src="websiteProjects.png" alt="Forest" width="100" height="100"> </td>
+    <td> <a href="https://azhb.github.io/about/"> <img src="websiteAbout.png" alt="Mountains" width="100" height="100"> </td>
   </tr>
 </table>
 
