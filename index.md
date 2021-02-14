@@ -4,13 +4,13 @@ layout: default
 
 <div class="row">
   <div class="column">
-    <img src="websiteContact.png" alt="Snow" style="width:100%">
+    <img src="websiteContact.png" alt="Snow" width="100" height="100">
   </div>
   <div class="column">
-    <img src="websiteProjects.png" alt="Forest" style="width:100%">
+    <img src="websiteProjects.png" alt="Forest" width="100" height="100">
   </div>
   <div class="column">
-    <img src="websiteAbout.png" alt="Mountains" style="width:100%">
+    <img src="websiteAbout.png" alt="Mountains" width="100" height="100">
   </div>
 </div>
 
