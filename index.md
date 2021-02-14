@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<table style="margin-left:auto;margin-right:auto;">
+<table>
   <tr>
     <td> <img src="websiteContact.png" alt="Snow" width="100" height="100"> </td>
     <td> <img src="websiteProjects.png" alt="Forest" width="100" height="100"> </td>
