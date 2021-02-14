@@ -14,6 +14,14 @@ layout: default
   </div>
 </div>
 
+<table>
+  <tr>
+    <td> <img src="websiteContact.png" alt="Snow" width="100" height="100"> </td>
+    <td> <img src="websiteContact.png" alt="Snow" width="100" height="100"> </td>
+    <td> <img src="websiteContact.png" alt="Snow" width="100" height="100"> </td>
+  </tr>
+</table>
+
 
 Header 1
 ===============
