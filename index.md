@@ -10,8 +10,6 @@ layout: default
   </tr>
 </table>
 
-hello
-
 Header 1
 ===============
 
