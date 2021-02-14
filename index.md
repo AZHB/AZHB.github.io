@@ -2,23 +2,11 @@
 layout: default
 ---
 
-<div class="row">
-  <div class="column">
-    <img src="websiteContact.png" alt="Snow" width="100" height="100">
-  </div>
-  <div class="column">
-    <img src="websiteProjects.png" alt="Forest" width="100" height="100">
-  </div>
-  <div class="column">
-    <img src="websiteAbout.png" alt="Mountains" width="100" height="100">
-  </div>
-</div>
-
-<table>
+<table style="margin-left:auto;margin-right:auto;">
   <tr>
     <td> <img src="websiteContact.png" alt="Snow" width="100" height="100"> </td>
-    <td> <img src="websiteContact.png" alt="Snow" width="100" height="100"> </td>
-    <td> <img src="websiteContact.png" alt="Snow" width="100" height="100"> </td>
+    <td> <img src="websiteProjects.png" alt="Forest" width="100" height="100"> </td>
+    <td> <img src="websiteAbout.png" alt="Mountains" width="100" height="100"> </td>
   </tr>
 </table>
 
