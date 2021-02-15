@@ -7,7 +7,7 @@ title: "Projects"
 Projects
 ========
 
-A Game of Risk
+<a href="https://azhb.github.io/projects/risk"> A Game of Risk </a>
 --------
 
 ### About
