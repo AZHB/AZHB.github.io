@@ -31,25 +31,35 @@ Projects
 
 <table>
   <tr>
-    <td style="width:320px"> <img src="../websiteRisk.jpg" alt="Risk" width="320"> </td>
-    <td> <h3> About </h3>
+    <td style="width:320px"> <img src="../websiteRisk.jpg" alt="Risk" width="320"> <img src="../websiteRiskC++.PNG" alt="Risk" width="320"> </td>
+    <td style="vertical-align:top"> <h3> About </h3>
          A C++ implementation of an algorithm that I wrote to calculate the probability of victory in a battle in the board game Risk. The algorithm estimates the                probability of a victory by using a Monte-Carlo method to simulate thousands of possible outcomes. 
+      <h3> Tags </h3>
+      <ul>
+        <li>  C++ </li>
+        <li>  Probability </li>
+        <li>  Statistics </li>
+        <li>  Simulation </li>
+      </ul>
     </td>
-  </tr>
-  <tr>
-    <td style="width:320px"> <img src="../websiteRiskC++.PNG" alt="Risk" width="320"> </td>
-    <td> Tags: </td>
   </tr>
 </table>
 
 <a href="https://azhb.github.io/projects/risk"> A Game of Risk </a>
 --------
 
-<img src="../websiteRisk.jpg" alt="Risk" width="320">
-
-<img src="../websiteRiskC++.PNG" alt="Risk" width="320">
-
-### About
-A C++ implementation of an algorithm that I wrote to calculate the probability of victory in a battle in the board game Risk. The algorithm estimates the probability of a victory by using a Monte-Carlo method to simulate thousands of possible outcomes.
-
-### Motivation
+<table>
+  <tr>
+    <td style="width:320px"> <img src="../websiteRisk.jpg" alt="Risk" width="320"> <img src="../websiteRiskC++.PNG" alt="Risk" width="320"> </td>
+    <td style="vertical-align:top"> <h3> About </h3>
+         A C++ implementation of an algorithm that I wrote to calculate the probability of victory in a battle in the board game Risk. The algorithm estimates the                probability of a victory by using a Monte-Carlo method to simulate thousands of possible outcomes. 
+      <h3> Tags </h3>
+      <ul>
+        <li>  C++ </li>
+        <li>  Probability </li>
+        <li>  Statistics </li>
+        <li>  Simulation </li>
+      </ul>
+    </td>
+  </tr>
+</table>
