@@ -1,6 +1,6 @@
 ---
 layout: default
-permalinl: "/projects/2DGolf/"
+permalink: "/projects/2DGolf/"
 title: "Golf in 2D"
 ---
 
