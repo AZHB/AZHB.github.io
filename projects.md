@@ -19,6 +19,7 @@ Projects
       <ul>
         <li>  C++ </li>
         <li>  Visual Scripting </li>
+        <li>  Unreal Engine </li>
         <li>  Game Design </li>
         <li>  Level Design </li>
         <li>  3D Modelling </li>
@@ -41,6 +42,7 @@ Projects
       <ul>
         <li>  C# </li>
         <li>  GDScript </li>
+        <li>  Godot </li>
         <li>  Game Design </li>
         <li>  Level Design </li>
         <li>  Mathematics </li>
