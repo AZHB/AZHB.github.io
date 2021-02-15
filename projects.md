@@ -14,7 +14,7 @@ Projects
   <tr>
     <td style="width:320px"> <img src="../websiteRisk.jpg" alt="Risk" width="320"> <img src="../websiteRiskC++.PNG" alt="Risk" width="320"> </td>
     <td style="vertical-align:top"> <h3> About </h3>
-         A 3D golf demo built using Unreal Engine and C++.
+         A 3D golf demo built using Unreal Engine and C++. This is an extension of the similar project in 2D, tackling the added complexities of an additional dimension and the challenges that come with this.
       <h3> Tags </h3>
       <ul>
         <li>  C++ </li>
