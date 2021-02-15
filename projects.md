@@ -19,10 +19,6 @@ Projects
          C++ Probability Statistics
     </td>
   </tr>
-  <tr>
-    <td style="width:320px">  </td>
-    <td> Tags: </td>
-  </tr>
 </table>
 
 <a href="https://azhb.github.io/projects/2DGolf"> Golf in 2D </a>
