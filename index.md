@@ -22,12 +22,7 @@ layout: default
 
 
 
-Header 1
-===============
-
-
-
-Here is a image with a link: <a href="https://azhb.github.io/test/">
-<img border="0" alt="" src="test1.png" width="100" height="100">
-</a>
+<div class="center">
+  Evan Tyrrell  
+</div>
 
