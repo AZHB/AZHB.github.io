@@ -16,7 +16,7 @@ Projects
 <table>
   <tr>
     <td> <img src="../websiteRisk.jpg" alt="Risk" width="320"> </td>
-    <td> ### About
+    <td> <h3> About </h3>
          A C++ implementation of an algorithm that I wrote to calculate the probability of victory in a battle in the board game Risk. The algorithm estimates the                probability of a victory by using a Monte-Carlo method to simulate thousands of possible outcomes. 
     </td>
   </tr>
