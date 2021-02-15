@@ -16,9 +16,12 @@ Projects
     <td style="vertical-align:top"> <h3> About </h3>
          A C++ implementation of an algorithm that I wrote to calculate the probability of victory in a battle in the board game Risk. The algorithm estimates the                probability of a victory by using a Monte-Carlo method to simulate thousands of possible outcomes. 
       <h3> Tags </h3>
-      - C++
-      - Probability
-      - Statistics
+      <ul>
+        <li>  C++ </li>
+        <li>  Probability </li>
+        <li>  Statistics </li>
+        <li>  Simulation </li>
+      </ul>
     </td>
   </tr>
 </table>
