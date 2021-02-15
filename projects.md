@@ -18,9 +18,12 @@ Projects
       <h3> Tags </h3>
       <ul>
         <li>  C++ </li>
-        <li>  Probability </li>
-        <li>  Statistics </li>
-        <li>  Simulation </li>
+        <li>  Visual Scripting </li>
+        <li>  Game Design </li>
+        <li>  Level Design </li>
+        <li>  3D Modelling </li>
+        <li>  Mathematics </li>
+        <li>  Physics </li>
       </ul>
     </td>
   </tr>
@@ -33,13 +36,15 @@ Projects
   <tr>
     <td style="width:320px"> <img src="../websiteRisk.jpg" alt="Risk" width="320"> <img src="../websiteRiskC++.PNG" alt="Risk" width="320"> </td>
     <td style="vertical-align:top"> <h3> About </h3>
-         A 2D golf demo built using the Godot engine, with the majority of gameplay logic written in C# and GDscript (a custom scripting language for use in-engine).
+         A 2D golf demo built using the Godot engine, with the majority of gameplay logic written in C# and GDScript (a custom scripting language for use in-engine).
       <h3> Tags </h3>
       <ul>
-        <li>  C++ </li>
-        <li>  Probability </li>
-        <li>  Statistics </li>
-        <li>  Simulation </li>
+        <li>  C# </li>
+        <li>  GDScript </li>
+        <li>  Game Design </li>
+        <li>  Level Design </li>
+        <li>  Mathematics </li>
+        <li>  Physics </li>
       </ul>
     </td>
   </tr>
