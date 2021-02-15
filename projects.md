@@ -21,6 +21,6 @@ Projects
 <img src="websiteRiskC++.PNG" alt="Risk" width="320">
 
 ### About
-A C++ console-application implementation of an algorithm that I wrote to calculate the probability of a victory in a battle in the renowned board game Risk. The algorithm estimates the problability of a victory by using a Monte-Carlo method, involving the repeated random sampling of a probability distribution to estimate the outcome of dice rolls and simulate thousands of possible outcomes.
+A C++ implementation of an algorithm that I wrote to calculate the probability of victory in a battle in the board game Risk. The algorithm estimates the probability of a victory by using a Monte-Carlo method to simulate thousands of possible outcomes.
 
 ### Motivation
