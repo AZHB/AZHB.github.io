@@ -1,6 +1,6 @@
 ---
 layout: default
-permalinl: "/projects/risk/"
+permalink: "/projects/risk/"
 title: "A Game of Risk"
 ---
 
