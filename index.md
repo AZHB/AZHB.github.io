@@ -4,13 +4,13 @@ layout: default
 
 <div class="row">
   <div class="column">
-    <a href="https://azhb.github.io/contact/"> <img src="websiteContact.png" alt="Snow" width="100" height="100"> </a>
+    <a href="https://azhb.github.io/contact/"> <img src="websiteContact.png" alt="Contact" width="100" height="100"> </a>
   </div>
   <div class="column">
-    <a href="https://azhb.github.io/projects/"> <img src="websiteProjects.png" alt="Forest" width="100" height="100"> </a>
+    <a href="https://azhb.github.io/projects/"> <img src="websiteProjects.png" alt="Projects" width="100" height="100"> </a>
   </div>
   <div class="column">
-    <a href="https://azhb.github.io/about/"> <img src="websiteAbout.png" alt="Mountains" width="100" height="100"> </a>
+    <a href="https://azhb.github.io/about/"> <img src="websiteAbout.png" alt="About" width="100" height="100"> </a>
   </div>
 </div>
 
