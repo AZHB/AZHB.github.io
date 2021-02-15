@@ -21,8 +21,9 @@ layout: default
 </div>
 
 
-
+<div class="row">
 <div class="center">
   Evan Tyrrell  
+</div>
 </div>
 
