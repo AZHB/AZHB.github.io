@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<table class="center">
+<table>
   <tr>
     <td> <a href="https://azhb.github.io/contact/"> <img src="websiteContact.png" alt="Snow" width="100" height="100"> </a> </td>
     <td> <a href="https://azhb.github.io/projects/"> <img src="websiteProjects.png" alt="Forest" width="100" height="100"> </a> </td>
