@@ -33,7 +33,7 @@ To provide some context on the inner workings of the algorithm, it is useful to 
 <div class="center">
 <table>
 	<tr>
-		<td style="text-align:center"> <h2> Outcomes </h2> </td>
+		<td style="text-align:center"> <h3> Outcomes </h3> </td>
 	</tr>
 	<tr>
 		<td style="text-align:center"> Defender loses one unit </td>
@@ -58,7 +58,7 @@ In a single round, the attacking player rolls a maximum of *3* dice and the defe
 <div class="center">
 <table>
 	<tr>
-	<td style="width:320px"> <img src="https://azhb.github.io/websiteRiskExamples.PNG" alt="Risk examples" width="791"> </td>
+	<td style="width:791px"> <img src="https://azhb.github.io/websiteRiskExamples.PNG" alt="Risk examples" width="791"> </td>
 	</tr>
 </table>
 </div>
