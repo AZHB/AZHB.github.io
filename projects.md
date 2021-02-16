@@ -66,7 +66,7 @@ Projects
         <li>  Probability </li>
         <li>  Statistics </li>
         <li>  Simulation </li>
-        <li>  Randomn Number Generation </li>
+        <li>  Random Number Generation </li>
         <li>  Big-O Notation </li>
       </ul>
     </td>
