@@ -10,8 +10,8 @@ This project showcases a C++ implementation of an algorithm that simulates the p
 
 <table style="margin-left:auto;margin-right:auto;width:100%">
 	<tr>
-	<td> <img src="https://azhb.github.io/websiteRisk.jpg" alt="Risk" width="460px"> <img src="https://azhb.github.io/websiteRiskBoard.jpg" alt="Risk" width="460px"> </td> 
-	<td> <img src="https://azhb.github.io/websiteRiskC++.PNG" alt="Risk" width="460px"> </td>
+	<td style="width:460px"> <img src="https://azhb.github.io/websiteRisk.jpg" alt="Risk" width="460px"> <img src="https://azhb.github.io/websiteRiskBoard.jpg" alt="Risk" width="460px"> </td> 
+	<td style="width:460px"> <img src="https://azhb.github.io/websiteRiskC++.PNG" alt="Risk" width="460px"> </td>
 	</tr>
 </table>
 
