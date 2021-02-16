@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Evan Tyrrell
 ---
 
 <div class="row">
