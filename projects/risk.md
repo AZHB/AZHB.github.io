@@ -13,7 +13,7 @@ This project showcases a C++ implementation of an algorithm that simulates the p
 	<td style="width:320px"> <img src="../websiteRisk.jpg" alt="Risk" width="320"> </td> 
 	<td style="width:320px"> <img src="../websiteRiskC++.PNG" alt="Risk" width="320"> </td>
 </table>
-<div>
+</div>
 
 <h2> The Rules </h2>
 
