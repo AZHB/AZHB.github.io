@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Evan Tyrrell
+title: "Evan Tyrrell"
 ---
 
 <div class="row">
