@@ -8,7 +8,7 @@ title: "Contact"
 
 <table>
   <tr>
-    <td> <h2> Email <h2> </td>
+    <td> <h2> Email </h2> </td>
     <td> evan.tyrrell@hotmail.co.uk </td>
   </tr>
   <tr>
