@@ -24,7 +24,7 @@ To provide some context on the inner workings of the algorithm, it is useful to 
 <div class="center">
 <table>
 	<tr>
-	<td > <img src="https://azhb.github.io/websiteRiskExamples.PNG" alt="Risk examples" width="791"> </td> 
+	<td style="width:791"> <img src="https://azhb.github.io/websiteRiskExamples.PNG" alt="Risk examples" width="791"> </td> 
 	</tr>
 </table>
 </div>
