@@ -8,28 +8,36 @@ title: "A Game of Risk"
 
 This project showcases a C++ implementation of an algorithm that simulates the probability of victory in any given battle in the board game Risk. The algorithm is based on a Monte-Carlo approach, involving the efficient simulation of thousands of rounds by emulating dice rolls using repeated random draws from a probability distribution. An accurate result is calculated efficiently and almost instantaneously even for battles with thousands of dice rolls. The resulting console application was swiftly (and rightfully) banned by friends and family!
 
+<div class="center">
 <table style="margin:auto;">
+	<tr>
 	<td style="width:320px"> <img src="https://azhb.github.io/websiteRisk.jpg" alt="Risk" width="320"><img src="https://azhb.github.io/websiteRiskBoard.jpg" alt="Risk" width="320"> </td> 
 	<td style="width:320px"> <img src="https://azhb.github.io/websiteRiskC++.PNG" alt="Risk" width="320"> </td>
+	</tr>
 </table>
+</div>
 
 <h2> The Rules </h2>
 
 To provide some context on the inner workings of the algorithm, it is useful to briefly outline <a href="https://www.hasbro.com/common/instruct/risk.pdf"> the rules </a> that determine the victor in a battle in Risk. In a battle, there are *a* attacking units and *d* defending units. Battles consist of a number of rounds, until one player has no units left (or the attacker decides to stop). The possible outcomes of a round are below.
 
-<table style="margin-left:auto;margin-right:auto;">
+<div class="center">
+<table>
 	<tr>
 	<td > <img src="https://azhb.github.io/websiteRiskExamples.PNG" alt="Risk examples" width="791"> </td> 
 	</tr>
 </table>
+</div>
 
 In a single round, the attacking player rolls a maximum of *3* dice and the defender rolls a maximum of *2* dice. The highest dice roll of each player is compared, and then the second highest and so on. If the dice roll of the attacking player is greater than the defender's, then the defender loses a unit. If the dice roll of the attacking player is less than or equal to the defender's, then the attacker loses a unit. Below are some examples to demonstrate this from the official rules:
 
-<table style="margin-left:auto;margin-right:auto;">
+<div class="center">
+<table>
 	<tr>
 	<td style="width:320px"> <img src="https://azhb.github.io/websiteRiskExamples.PNG" alt="Risk examples" width="791"> </td>
 	</tr>
 </table>
+</div>
 
 Once a round has been resolved, the next round begins and new dice are cast (assuming that both players still have units left!). The attacking player can choose to stop after any round, but for our algorithm it will be assumed that the attacking player fights to the last!
 
