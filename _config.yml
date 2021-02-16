@@ -1,6 +1,8 @@
 theme: jekyll-theme-cayman
 title: "Evan Tyrrell"
 description: "https://github.com/AZHB"
+highlighter: rouge
+markdown: kramdown
 kramdown:
     # Use GitHub flavored markdown, including triple backtick fenced code blocks
     input: GFM
