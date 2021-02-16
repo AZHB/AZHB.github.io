@@ -25,18 +25,20 @@ psuedocode
 
 ```C++
 //Generate random dice rolls
-			vector<int> aRolls(aDice);
-			vector<int> dRolls(dDice);
-			for(vector<int>::iterator it=aRolls.begin();it!=aRolls.end();it++){
-				*it = rand() % 6 + 1;
-			}
-			for(vector<int>::iterator it=dRolls.begin();it!=dRolls.end();it++){
-				*it =rand() % 6 + 1;
-			}
-			sort(aRolls.begin(),aRolls.end());
-			reverse(aRolls.begin(),aRolls.end());
-			sort(dRolls.begin(),dRolls.end());
-			reverse(dRolls.begin(),dRolls.end());
+vector<int> aRolls(aDice);
+vector<int> dRolls(dDice);
+for(vector<int>::iterator it=aRolls.begin();it!=aRolls.end();it++){
+	*it = rand() % 6 + 1;
+}
+for(vector<int>::iterator it=dRolls.begin();it!=dRolls.end();it++){
+	*it =rand() % 6 + 1;
+}
+
+//Sort random dice rolls for comparison
+sort(aRolls.begin(),aRolls.end());
+reverse(aRolls.begin(),aRolls.end());
+sort(dRolls.begin(),dRolls.end());
+reverse(dRolls.begin(),dRolls.end());
 ```
 
 <p>Calculating result</p>
