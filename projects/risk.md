@@ -41,13 +41,13 @@ for(vector<int>::iterator it=dRolls.begin();it!=dRolls.end();it++){
 ~~~
 <p> Sorting Dice Rolls </p>
 
-~~~cpp
+{% highlight cpp %}
 //Sort random dice rolls for comparison
 sort(aRolls.begin(),aRolls.end());
 reverse(aRolls.begin(),aRolls.end());
 sort(dRolls.begin(),dRolls.end());
 reverse(dRolls.begin(),dRolls.end());
-~~~
+{% endhighlight %}
 
 <p>Calculating result</p>
 
