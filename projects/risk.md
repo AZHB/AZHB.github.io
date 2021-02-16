@@ -15,7 +15,11 @@ This project showcases a C++ implementation of an algorithm that simulates the p
 
 <h2> The Rules </h2>
 
-To provide some context on the inner workings of the algorithm, it is useful to briefly outline the rules that determine the victor in a battle in Risk.
+To provide some context on the inner workings of the algorithm, it is useful to briefly outline the rules that determine the victor in a battle in Risk. In a battle, there are *a* attacking units and *d* defending units. Battles consist of a number of rounds. In a single round, the attacking player rolls a maximum of *3* dice and the defender rolls a maximum of *2* dice. The highest dice roll of each player is compared, and then the second highest and so on. If the dice roll of the attacking player is greater than the defender's, then the defender loses a unit. If the dice roll of the attacking player is less than or equal to the defender's, then the attacker loses a unit. Below are some examples to demonstrate this from the official rules:
+
+<table style="margin-left:auto;margin-right:auto;">
+	<td style="width:320px"> <img src="https://azhb.github.io/websiteRiskExamples.png" alt="Risk examples" width="791"> </td> 
+</table>
 
 <h2> Algorithm Overview </h2>
 
