@@ -28,7 +28,7 @@ psuedocode
 
 <p> Generating Dice Rolls</p>
 
-~~~cpp
+{% highlight cpp %}
 //Generate random dice rolls
 vector<int> aRolls(aDice);
 vector<int> dRolls(dDice);
@@ -38,7 +38,7 @@ for(vector<int>::iterator it=aRolls.begin();it!=aRolls.end();it++){
 for(vector<int>::iterator it=dRolls.begin();it!=dRolls.end();it++){
 	*it =rand() % 6 + 1;
 }
-~~~
+{% endhighlight %}
 <p> Sorting Dice Rolls </p>
 
 {% highlight cpp %}
