@@ -21,7 +21,7 @@ psuedocode
 
 <p> Generating Dice Rolls</p>
 
-```fortran
+```cpp
 //Generate random dice rolls
 vector<int> aRolls(aDice);
 vector<int> dRolls(dDice);
@@ -34,7 +34,7 @@ for(vector<int>::iterator it=dRolls.begin();it!=dRolls.end();it++){
 ```
 <p> Sorting Dice Rolls </p>
 
-```ruby
+```cpp
 //Sort random dice rolls for comparison
 sort(aRolls.begin(),aRolls.end());
 reverse(aRolls.begin(),aRolls.end());
@@ -44,7 +44,7 @@ reverse(dRolls.begin(),dRolls.end());
 
 <p>Calculating result</p>
 
-```c
+```cpp
 //Calculate damage to attacker and defender
 int battles = min(aRolls.size(),dRolls.size());
 for(int i=0;i!=battles;i++){
