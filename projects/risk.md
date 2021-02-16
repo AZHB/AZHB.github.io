@@ -33,7 +33,10 @@ for(vector<int>::iterator it=aRolls.begin();it!=aRolls.end();it++){
 for(vector<int>::iterator it=dRolls.begin();it!=dRolls.end();it++){
 	*it =rand() % 6 + 1;
 }
+```
+<p> Sorting Dice Rolls </p>
 
+```C++
 //Sort random dice rolls for comparison
 sort(aRolls.begin(),aRolls.end());
 reverse(aRolls.begin(),aRolls.end());
