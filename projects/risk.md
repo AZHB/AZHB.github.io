@@ -18,7 +18,7 @@ This project showcases a C++ implementation of an algorithm that simulates the p
 </div>
 
 <div class="center">
-<table>
+<table style="width:968">
 	<tr>
 	<td style="width:460"> <img src="https://azhb.github.io/websiteRisk.jpg" alt="Risk" width="460"><img src="https://azhb.github.io/websiteRiskBoard.jpg" alt="Risk" width="460"> </td> 
 	<td style="width:508"> <img src="https://azhb.github.io/websiteRiskC++.PNG" alt="Risk" width="508"> </td>
