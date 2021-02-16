@@ -19,7 +19,7 @@ To provide some context on the inner workings of the algorithm, it is useful to 
 
 <table style="margin-left:auto;margin-right:auto;">
 	<tr>
-	<td > <img src="https://azhb.github.io/websiteRiskExamples.png" alt="Risk examples" width="791"> </td> 
+	<td > <img src="https://azhb.github.io/websiteRiskExamples.PNG" alt="Risk examples" width="791"> </td> 
 	</tr>
 </table>
 
@@ -27,9 +27,11 @@ In a single round, the attacking player rolls a maximum of *3* dice and the defe
 
 <table style="margin-left:auto;margin-right:auto;">
 	<tr>
-	<td style="width:320px"> <img src="https://azhb.github.io/websiteRiskExamples.png" alt="Risk examples" width="791"> </td>
+	<td style="width:320px"> <img src="https://azhb.github.io/websiteRiskExamples.PNG" alt="Risk examples" width="791"> </td>
 	</tr>
 </table>
+
+Once a round has been resolved, the next round begins and new dice are cast (assuming that both players still have units left!). The attacking player can choose to stop after any round, but for our algorithm it will be assumed that the attacking player fights to the last!
 
 <h2> Algorithm Overview </h2>
 
