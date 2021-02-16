@@ -20,7 +20,7 @@ layout: default
   </div>
 </div>
 
-<table>
+<table style="margin-top:40px">
   <tr>
     <td style="width:320px"> <img src="websiteRisk.jpg" alt="Risk" width="320"> </td>
     <td style="vertical-align:top"> <h3> Evan Tyrrell </h3>
@@ -28,23 +28,4 @@ layout: default
     </td>
   </tr>
 </table>
-
-
-<div class="row">
-<div class="column">
-<div class="center">
-  Evan Tyrrell 
-</div>
-  </div>
-<div class="column">
-  <div class="center">
-  Evan Tyrrell
-    </div>
-  </div>
-<div class="column">
-  <div class="center">
-  Evan Tyrrell  
-    </div>
-  </div>
-</div>
 
