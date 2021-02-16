@@ -10,8 +10,8 @@ This project showcases a C++ implementation of an algorithm that simulates the p
 
 <table style="margin-left:auto;margin-right:auto;width:100%">
 	<tr>
-	<td style="width:460px"> <img src="https://azhb.github.io/websiteRisk.jpg" alt="Risk" width="460px"> <img src="https://azhb.github.io/websiteRiskBoard.jpg" alt="Risk" width="460px"> </td> 
-	<td style="width:460px"> <img src="https://azhb.github.io/websiteRiskC++.PNG" alt="Risk" width="460px"> </td>
+	<td style="width:50%"> <img src="https://azhb.github.io/websiteRisk.jpg" alt="Risk" width="460px"> <img src="https://azhb.github.io/websiteRiskBoard.jpg" alt="Risk" width="460px"> </td> 
+	<td style="width:50%"> <img src="https://azhb.github.io/websiteRiskC++.PNG" alt="Risk" width="460px"> </td>
 	</tr>
 </table>
 
@@ -19,7 +19,7 @@ This project showcases a C++ implementation of an algorithm that simulates the p
 
 To provide some context on the inner workings of the algorithm, it is useful to briefly outline <a href="https://www.hasbro.com/common/instruct/risk.pdf"> the rules </a> that determine the victor in a battle in Risk. In a battle, there are *a* attacking units and *d* defending units. Battles consist of a number of rounds, until one player has no units left (or the attacker decides to stop). The possible outcomes of a round are below:
 
-<table style="margin-left:auto;margin-right:auto;width:100%;">
+<table style="margin-left:auto;margin-right:auto;width:50%;">
 	<tr>
 		<td style="text-align:center"> <h3> Outcomes </h3> </td>
 	</tr>
@@ -42,7 +42,7 @@ To provide some context on the inner workings of the algorithm, it is useful to 
 
 In a single round, the attacking player rolls a maximum of *3* dice and the defender rolls a maximum of *2* dice. The highest dice roll of each player is compared, and then the second highest and so on. If the dice roll of the attacking player is greater than the defender's, then the defender loses a unit. If the dice roll of the attacking player is less than or equal to the defender's, then the attacker loses a unit. Below are some examples to demonstrate this from the official rules:
 
-<table style="margin-left:auto;margin-right:auto;">
+<table style="margin-left:auto;margin-right:auto">
 	<tr>
 	<td> <img src="https://azhb.github.io/websiteRiskExamples.PNG" alt="Risk examples" width="791px"> </td>
 	</tr>
