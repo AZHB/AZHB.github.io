@@ -4,15 +4,9 @@ permalink: "/projects/risk/"
 title: "A Game of Risk"
 ---
 
-<h1> A Game of Risk" </h1>
+<h1> A Game of Risk </h1>
 
-Checking if code blocks works:
-
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
+This project showcases a C++ implementation of an algorithm that simulates the probability of victory in any given battle in the board game Risk. The algorithm is based on a Monte-Carlo approach, involving the efficient simulation of thousands of rounds by emulating dice rolls using repeated random draws from a probability distribution. An accurate result is calculated efficiently and almost instantaneously even for battles with thousands of dice rolls. The resulting console application was swiftly (and rightfully) banned by friends and family!
 
 <h2> Algorithm Overview </h2>
 
