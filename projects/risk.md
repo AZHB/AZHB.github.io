@@ -6,7 +6,13 @@ title: "A Game of Risk"
 
 <h1> A Game of Risk" </h1>
 
-Intro here
+Checking if code blocks works:
+
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
 
 <h2> Algorithm Overview </h2>
 
