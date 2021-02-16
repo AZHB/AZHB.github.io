@@ -66,3 +66,4 @@ for(int i=0;i!=battles;i++){
 
 <h2> Running Time Analysis </h2>
 
+Do some big-O analysis here perhaps?
