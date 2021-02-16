@@ -10,8 +10,8 @@ This project showcases a C++ implementation of an algorithm that simulates the p
 
 <div class="center">
 <table>
-	<td style="width:320px"> <img src="../websiteRisk.jpg" alt="Risk" width="320"> </td> 
-	<td style="width:320px"> <img src="../websiteRiskC++.PNG" alt="Risk" width="320"> </td>
+	<td style="width:320px"> <img src="https://azhb.github.io/websiteRisk.jpg" alt="Risk" width="320"> </td> 
+	<td style="width:320px"> <img src="https://azhb.github.io/websiteRiskC++.PNG" alt="Risk" width="320"> </td>
 </table>
 </div>
 
