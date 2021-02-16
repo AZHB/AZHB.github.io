@@ -4,7 +4,7 @@ permalink: "/contact/"
 title: "Contact"
 ---
 
-<h1> Contact </h1>
+<h1 style="text-align:center"> Contact </h1>
 
 <div class="center">
 <table>
