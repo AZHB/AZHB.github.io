@@ -66,6 +66,8 @@ Projects
         <li>  Probability </li>
         <li>  Statistics </li>
         <li>  Simulation </li>
+        <li>  Randomness </li>
+        <li>  Big-O Notation </li>
       </ul>
     </td>
   </tr>
