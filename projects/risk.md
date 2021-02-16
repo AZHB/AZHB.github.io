@@ -11,7 +11,7 @@ This project showcases a C++ implementation of an algorithm that simulates the p
 <table style="margin-left:auto;margin-right:auto">
 	<tr>
 	<td> <img src="https://azhb.github.io/websiteRisk.jpg" alt="Risk" width="460"><img src="https://azhb.github.io/websiteRiskBoard.jpg" alt="Risk" width="460"> </td> 
-	<td> <img src="https://azhb.github.io/websiteRiskC++.PNG" alt="Risk" width="508"> </td>
+	<td> <img src="https://azhb.github.io/websiteRiskC++.PNG" alt="Risk" width="460"> </td>
 	</tr>
 </table>
 
@@ -19,7 +19,7 @@ This project showcases a C++ implementation of an algorithm that simulates the p
 
 To provide some context on the inner workings of the algorithm, it is useful to briefly outline <a href="https://www.hasbro.com/common/instruct/risk.pdf"> the rules </a> that determine the victor in a battle in Risk. In a battle, there are *a* attacking units and *d* defending units. Battles consist of a number of rounds, until one player has no units left (or the attacker decides to stop). The possible outcomes of a round are below:
 
-<table style="float:right">
+<table style="margin-left:auto;margin-right:auto;">
 	<tr>
 		<td style="text-align:center"> <h3> Outcomes </h3> </td>
 	</tr>
