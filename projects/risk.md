@@ -23,7 +23,7 @@ psuedocode
 
 <p> Generating Dice Rolls</p>
 
-```C++
+```cpp
 //Generate random dice rolls
 vector<int> aRolls(aDice);
 vector<int> dRolls(dDice);
@@ -36,7 +36,7 @@ for(vector<int>::iterator it=dRolls.begin();it!=dRolls.end();it++){
 ```
 <p> Sorting Dice Rolls </p>
 
-```C++
+```cpp
 //Sort random dice rolls for comparison
 sort(aRolls.begin(),aRolls.end());
 reverse(aRolls.begin(),aRolls.end());
