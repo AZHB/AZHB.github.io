@@ -8,6 +8,13 @@ title: "A Game of Risk"
 
 This project showcases a C++ implementation of an algorithm that simulates the probability of victory in any given battle in the board game Risk. The algorithm is based on a Monte-Carlo approach, involving the efficient simulation of thousands of rounds by emulating dice rolls using repeated random draws from a probability distribution. An accurate result is calculated efficiently and almost instantaneously even for battles with thousands of dice rolls. The resulting console application was swiftly (and rightfully) banned by friends and family!
 
+<div class="center">
+<table>
+	<td style="width:320px"> <img src="../websiteRisk.jpg" alt="Risk" width="320"> </td> 
+	<td style="width:320px"> <img src="../websiteRiskC++.PNG" alt="Risk" width="320"> </td>
+</table>
+<div>
+
 <h2> The Rules </h2>
 
 To provide some context on the inner workings of the algorithm, it is useful to briefly outline the rules that determine the victor in a battle in Risk.
