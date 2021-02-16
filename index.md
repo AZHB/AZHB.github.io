@@ -25,9 +25,9 @@ title: "Evan Tyrrell"
   <tr>
     <td style="width:200px;"> <img src="me.png" alt="Welcome" width="194"> </td>
     <td style="vertical-align:top;"> <div style="text-align:center"><h3> Welcome! </h3></div>
-         Welcome to my Github portfolio! Please find a selection of relevant projects in the 'Projects' section, along with a general summary of my background and experience in the 'About' section. To contact me, refer to the 'Contact' section. A CV is available on request, thank you for taking the time to look at some of my work!
+         <p>Welcome to my Github portfolio! Please find a selection of relevant projects in the 'Projects' section, along with a general summary of my background and experience in the 'About' section. To contact me, refer to the 'Contact' section. A CV is available on request, thank you for taking the time to look at some of my work!</p>
       
-      Evan Tyrrell
+      <p> Evan Tyrrell</p>
     </td>
   </tr>
 </table>
