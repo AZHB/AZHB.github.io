@@ -21,6 +21,7 @@ title: "Evan Tyrrell"
   </div>
 </div>
 
+<div class="center">
 <table style="margin-top:40px">
   <tr>
     <td style="width:200px;"> <img src="me.png" alt="Welcome" width="194"> </td>
@@ -31,4 +32,5 @@ title: "Evan Tyrrell"
     </td>
   </tr>
 </table>
+</div>
 
