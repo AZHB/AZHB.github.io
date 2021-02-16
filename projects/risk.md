@@ -33,7 +33,22 @@ To provide some context on the inner workings of the algorithm, it is useful to 
 <div class="center">
 <table>
 	<tr>
-	<td style="width:791"> <img src="https://azhb.github.io/websiteRiskExamples.PNG" alt="Risk examples" width="791"> </td> 
+		<td style="text-align:center"> <h2> Outcomes </h2> </td>
+	</tr>
+	<tr>
+		<td style="text-align:center"> Defender loses one unit </td>
+	</tr>
+	<tr>
+		<td style="text-align:center"> Defender loses two units </td>
+	</tr>
+	<tr>
+		<td style="text-align:center"> Attacker loses one unit </td>
+	</tr>
+	<tr>
+		<td style="text-align:center"> Attacker loses two units </td>
+	</tr>
+	<tr>
+		<td style="text-align:center"> Attacker loses one unit and defender loses one unit </td>
 	</tr>
 </table>
 </div>
