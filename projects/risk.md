@@ -10,18 +10,9 @@ This project showcases a C++ implementation of an algorithm that simulates the p
 
 <div class="center">
 <table>
-	<tr style="width:640px">
-	<td style="width:320px"> <img src="https://azhb.github.io/websiteRisk.jpg" alt="Risk" width="320"><img src="https://azhb.github.io/websiteRiskBoard.jpg" alt="Risk" width="320"> </td> 
-	<td style="width:320px"> <img src="https://azhb.github.io/websiteRiskC++.PNG" alt="Risk" width="320"> </td>
-	</tr>
-</table>
-</div>
-
-<div class="center">
-<table style="width:968">
 	<tr>
-	<td style="width:460"> <img src="https://azhb.github.io/websiteRisk.jpg" alt="Risk" width="460"><img src="https://azhb.github.io/websiteRiskBoard.jpg" alt="Risk" width="460"> </td> 
-	<td style="width:508"> <img src="https://azhb.github.io/websiteRiskC++.PNG" alt="Risk" width="508"> </td>
+	<td > <img src="https://azhb.github.io/websiteRisk.jpg" alt="Risk" width="460"><img src="https://azhb.github.io/websiteRiskBoard.jpg" alt="Risk" width="460"> </td> 
+	<td> <img src="https://azhb.github.io/websiteRiskC++.PNG" alt="Risk" width="508"> </td>
 	</tr>
 </table>
 </div>
@@ -56,9 +47,9 @@ To provide some context on the inner workings of the algorithm, it is useful to 
 In a single round, the attacking player rolls a maximum of *3* dice and the defender rolls a maximum of *2* dice. The highest dice roll of each player is compared, and then the second highest and so on. If the dice roll of the attacking player is greater than the defender's, then the defender loses a unit. If the dice roll of the attacking player is less than or equal to the defender's, then the attacker loses a unit. Below are some examples to demonstrate this from the official rules:
 
 <div class="center">
-<table style="width:791px">
+<table>
 	<tr>
-	<td style="width:791px"> <img src="https://azhb.github.io/websiteRiskExamples.PNG" alt="Risk examples" width="791px"> </td>
+	<td> <img src="https://azhb.github.io/websiteRiskExamples.PNG" alt="Risk examples" width="791px"> </td>
 	</tr>
 </table>
 </div>
