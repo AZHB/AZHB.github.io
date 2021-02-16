@@ -46,5 +46,18 @@ reverse(dRolls.begin(),dRolls.end());
 
 <p>Calculating result</p>
 
+```cpp
+//Calculate damage to attacker and defender
+int battles = min(aRolls.size(),dRolls.size());
+for(int i=0;i!=battles;i++){
+	if(aRolls[i]>dRolls[i]){
+		dCopy--;
+	}
+	else{
+		aCopy--;
+	}	
+}
+```
+
 <h2> Running Time Analysis </h2>
 
