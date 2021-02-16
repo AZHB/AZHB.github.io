@@ -8,6 +8,10 @@ title: "A Game of Risk"
 
 This project showcases a C++ implementation of an algorithm that simulates the probability of victory in any given battle in the board game Risk. The algorithm is based on a Monte-Carlo approach, involving the efficient simulation of thousands of rounds by emulating dice rolls using repeated random draws from a probability distribution. An accurate result is calculated efficiently and almost instantaneously even for battles with thousands of dice rolls. The resulting console application was swiftly (and rightfully) banned by friends and family!
 
+<h2> The Rules </h2>
+
+To provide some context on the inner workings of the algorithm, it is useful to briefly outline the rules that determine the victor in a battle in Risk.
+
 <h2> Algorithm Overview </h2>
 
 Monte carlo method
@@ -17,7 +21,7 @@ psuedocode
 
 <p> Generating Dice Rolls</p>
 
-```c
+```fortran
 //Generate random dice rolls
 vector<int> aRolls(aDice);
 vector<int> dRolls(dDice);
@@ -30,7 +34,7 @@ for(vector<int>::iterator it=dRolls.begin();it!=dRolls.end();it++){
 ```
 <p> Sorting Dice Rolls </p>
 
-```c
+```ruby
 //Sort random dice rolls for comparison
 sort(aRolls.begin(),aRolls.end());
 reverse(aRolls.begin(),aRolls.end());
