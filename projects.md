@@ -63,10 +63,12 @@ Projects
       <h3> Tags </h3>
       <ul>
         <li>  C++ </li>
+        <li>  Standard Template Library </li>
         <li>  Probability </li>
         <li>  Statistics </li>
         <li>  Simulation </li>
         <li>  Random Number Generation </li>
+        <li>  Runtime Analysis </li>
         <li>  Big-O Notation </li>
       </ul>
     </td>
