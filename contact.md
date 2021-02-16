@@ -6,6 +6,7 @@ title: "Contact"
 
 <h1> Contact </h1>
 
+<div class="center">
 <table>
   <tr>
     <td> <h2> Email </h2> </td>
@@ -16,3 +17,4 @@ title: "Contact"
     <td> London, United Kingdom </td>
   </tr>
 </table>
+</div>
