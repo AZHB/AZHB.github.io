@@ -56,6 +56,8 @@ Once a round has been resolved, the next round begins and new dice are cast (ass
 
 The approach that the algorithm takes is classified as a Monte Carlo method - it relies on generating random draws from a probability distribution to approximate the solution of a deterministic problem. In this instance, we are generating dice rolls to simulate battles with the given number of attacking units *a* and defending units *d*. The algorithm does this *n* times, to generate the probability as the proportion of battles won. As *n* becomes large, the estimate approaches the true probability due to the aptly named law of large numbers. 
 
+$$ \text{probability} = \frac{\text{number of wins}}{n}$$
+
 <h4>Psuedocode</h4>
 
 
