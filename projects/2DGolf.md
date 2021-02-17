@@ -68,6 +68,12 @@ The code block above shows the initialization of the level manager, demonstratin
 Intro here
 Gif of a basic level
 
+<table style="margin-left:auto;margin-right:auto;width:50%">
+	<tr>
+	<td> <img src="https://azhb.github.io/website2DGolfBasicLevelEditor.PNG" alt="Basic level in editor" width="400px"> <img src="https://azhb.github.io/test.gif" alt="Basic level animation" width="400px"> </td> 
+	</tr>
+</table>
+
 <h4> Static Objects </h4>
 
 The majority of the level geometry is composed of static objects. These nodes have a Sprite (which includes functionality to render an image to the screen each frame) and a Collision Shape (which includes functionality to detect overlaps and collision within the physics engine). For nodes that have more complex shapes, the Collision Shape is replaced by a Collision Polygon. A Collision Polygon seperates the geometry of the shape (automatically or by hand) into distinct polygons to allow for efficient collsion detection. 
