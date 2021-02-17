@@ -8,15 +8,17 @@ title: "Golf in 2D"
 
 <h2> Introduction </h2>
 
-This project features a 2D Golf game made using the open-source Godot engine. All gameplay functionality was written using GDScript (very similar in syntax to C#) and Godot's own API. This page details highlights of some of the elements included in the game prototype along with a breakdown of how certain features were implemented.
+This project features a 2D Golf game made using the open-source Godot engine. All gameplay functionality was written using GDScript (very similar in syntax to C#) and Godot's own API. This page details highlights of some of the elements included in the game prototype along with a breakdown of how certain features were implemented. Godot was chosen as it is open-source, community-driven and written with C++, a language that I am confident with. This allowed me to develop an insight into understanding the inner workings of a game engine, particularly with regards to the simulation of physics. I also created a fun game prototype out of it, of course!
 
 <table style="margin-left:auto;margin-right:auto;width:80%">
 	<tr>
-	<td> <img src="https://azhb.github.io/website2DGolfSplash.png" alt="2D Golf" width="460px"> <img src="https://azhb.github.io/websiteGodotLogo.png" alt="Godot" width="460px"> <a href="https://godotengine.org/"> Image Source </a> </td>
+	<td> <img src="https://azhb.github.io/website2DGolfSplash.png" alt="2D Golf" width="460px"></td>
 	</tr>
 </table>
 
 <h2> Game Architecture </h2>
+
+Godot 
 
 <h4> Player Manager </h4>
 
