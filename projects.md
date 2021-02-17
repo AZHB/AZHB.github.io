@@ -4,7 +4,7 @@ permalink: "/projects/"
 title: "Projects"
 ---
 
-Projects
+Recent Projects
 ========
 
 <a href="https://azhb.github.io/projects/3DGolf"> Golf in 3D </a>
