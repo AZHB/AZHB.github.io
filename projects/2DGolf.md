@@ -71,6 +71,7 @@ This section will provide details on some of the many gameplay elements included
 	<tr>
 	<td> <img src="https://azhb.github.io/website2DGolfBasicLevelEditor.PNG" alt="Basic level in editor" width="800px"> <img src="https://azhb.github.io/test.gif" alt="Basic level animation" width="800px"> </td> 
 	</tr>
+	<tr> <td style="text-align:center"> That's a Bad Miss </td> </tr>
 </table>
 
 <h4> Static Objects </h4>
