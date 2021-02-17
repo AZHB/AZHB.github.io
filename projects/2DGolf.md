@@ -98,7 +98,32 @@ In order to rapidly prototype levels, I have implemented a collection of static 
 
 <h4> Dynamic Objects </h4>
 
-<h4>  </h4>
+Rotations, translations and scale adjustments can all be made to static objects to create a variety of obstacles in the level. Since nodes can be attached to other nodes through composition, it is also possible to animate only part of an object and have reusable moving parts. The spinning wheel is an example of such an object below.
+
+<table style="margin-left:auto;margin-right:auto;width:50%">
+	<tr>
+	<td> <img src="https://azhb.github.io/website2DGolfDynamic.PNG" alt="Prefabs" width="200px"></td>
+	</tr>
+</table>
+
+Some of the variables that dictate the nature of the components animation can be exposed to adjustment within the editor through the use of the 'export' keyword in GDScript. For the above wheel example, the rotational speed, the rotational direction and whether it begins turining automatically (as opposed to being activated) can all be changed in the editor on a per-instance basis thanks to the code portion below. 
+
+```gdscript
+#external variables
+export(bool) var automatic = true
+export(bool) var clockwise = true
+export(int) var speed_deg = 10 #degrees per second
+
+#internal variables
+var activated = false setget activated_set
+var clockwise_int
+```
+
+<table style="margin-left:auto;margin-right:auto;width:50%">
+	<tr>
+	<td> <img src="https://azhb.github.io/website2DGolfDynamic.PNG" alt="Prefabs" width="200px"></td>
+	</tr>
+</table>
 
 <h4> Interactive elements </h4>
 
