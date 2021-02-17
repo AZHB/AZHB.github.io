@@ -21,7 +21,7 @@ This project showcases a C++ implementation of an algorithm that simulates the p
 
 <h2> The Rules </h2>
 
-To provide some context on the inner workings of the algorithm, it is useful to briefly outline <a href="https://www.hasbro.com/common/instruct/risk.pdf"> the rules </a> that determine the victor in a battle in Risk. In a battle, there are /(a/) attacking units and /(d/) defending units. Battles consist of a number of rounds, until one player has no units left (or the attacker decides to stop). The possible outcomes of a round are below:
+To provide some context on the inner workings of the algorithm, it is useful to briefly outline <a href="https://www.hasbro.com/common/instruct/risk.pdf"> the rules </a> that determine the victor in a battle in Risk. In a battle, there are \(a\) attacking units and \(d\) defending units. Battles consist of a number of rounds, until one player has no units left (or the attacker decides to stop). The possible outcomes of a round are below:
 
 <table style="margin-left:auto;margin-right:auto;width:50%;">
 	<tr>
@@ -58,7 +58,7 @@ Once a round has been resolved, the next round begins and new dice are cast (ass
 
 <h4>Monte carlo method</h4>
 
-The approach that the algorithm takes is classified as a Monte Carlo method - it relies on generating random draws from a probability distribution to approximate the solution of a deterministic problem. In this instance, we are generating dice rolls to simulate battles with the given number of attacking units /(a/) and defending units /(d/). The algorithm does this /(n/) times, to generate the probability as the proportion of battles won. As /( n /) becomes large, the estimate approaches the true probability due to the aptly named <a href="https://en.wikipedia.org/wiki/Law_of_large_numbers">law of large numbers theory</a>. 
+The approach that the algorithm takes is classified as a Monte Carlo method - it relies on generating random draws from a probability distribution to approximate the solution of a deterministic problem. In this instance, we are generating dice rolls to simulate battles with the given number of attacking units \(a\) and defending units \(d\). The algorithm does this \(n\) times, to generate the probability as the proportion of battles won. As \(n\) becomes large, the estimate approaches the true probability due to the aptly named <a href="https://en.wikipedia.org/wiki/Law_of_large_numbers">law of large numbers theory</a>. 
 
 $$ \text{probability} = \frac{\text{number of wins}}{n} $$
 
