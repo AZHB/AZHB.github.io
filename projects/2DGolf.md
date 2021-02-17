@@ -12,7 +12,7 @@ This project features a 2D Golf game made using the open-source Godot engine. Al
 
 <table style="margin-left:auto;margin-right:auto;width:60%">
 	<tr>
-	<td> <img src="https://azhb.github.io/website2DGolfSplash.png" alt="2D Golf" width="240px"></td>
+	<td> <img src="https://azhb.github.io/website2DGolfSplash.png" alt="2D Golf" width="400px"></td>
 	</tr>
 </table>
 
@@ -70,8 +70,6 @@ Gif of a basic level
 
 <h4> Static Objects </h4>
 
-talk about tree structure of a static object (simple and complex)
-
 The majority of the level geometry is composed of static objects. These nodes have a Sprite (which includes functionality to render an image to the screen each frame) and a Collision Shape (which includes functionality to detect overlaps and collision within the physics engine). For nodes that have more complex shapes, the Collision Shape is replaced by a Collision Polygon. A Collision Polygon seperates the geometry of the shape (automatically or by hand) into distinct polygons to allow for efficient collsion detection. 
 
 <table style="margin-left:auto;margin-right:auto;width:50%">
@@ -84,8 +82,9 @@ The majority of the level geometry is composed of static objects. These nodes ha
 	</tr>
 </table>
 
-talk about using prefab shapes to prototype levels
-show image of above
+In order to rapidly prototype levels, I have implemented a collection of static object 'prefabs'. Some of these are implementing Collision Shapes and some are implementing Collision Polygons - it depends upon the complexity of their geometry.
+
+
 
 <h4> Dynamic Objects </h4>
 
