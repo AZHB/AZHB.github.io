@@ -83,7 +83,7 @@ Whilst mathematically complex, it is possible to calculate exactly the probabili
 
 <table style="margin-left:auto;margin-right:auto;width:60%">
 	<tr>
-		<td> <img src="https://azhb.github.io/websiteRiskProbabilitiesMarkov.png" alt="Risk Probabilities" width="443px"> <a href="https://www4.stat.ncsu.edu/~jaosborn/research/RISK.pdf"> Image Source </a> </td>
+		<td> <img src="https://azhb.github.io/webisteRiskProbabilitiesMarkov.png" alt="Risk Probabilities" width="443px"> <a href="https://www4.stat.ncsu.edu/~jaosborn/research/RISK.pdf"> Image Source </a> </td>
 	</tr>
 </table>
 
