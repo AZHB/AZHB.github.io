@@ -35,7 +35,7 @@ Projects
 
 <table>
   <tr>
-    <td style="width:320px"> <img src="https://azhb.github.io/website2DGolfSplash.png" alt="2DGolf Splash" width="320"> </td>
+    <td style="width:320px"> <img src="https://azhb.github.io/website2DGolfSplash.png" alt="2DGolf Splash" width="320"> <img src="https://azhb.github.io/websiteGodotLogo.png" alt="2DGolf Splash" width="320"> </td>
     <td style="vertical-align:top"> <h3> About </h3>
          A 2D golf demo built using the Godot engine, with the majority of gameplay logic written in C# and GDScript (a custom scripting language for use in-engine).
       <h3> Tags </h3>
