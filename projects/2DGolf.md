@@ -90,7 +90,7 @@ The majority of the level geometry is composed of static objects. These nodes ha
 
 In order to rapidly prototype levels, I have implemented a collection of static object 'prefabs'. Some of these are implementing Collision Shapes and some are implementing Collision Polygons - it depends upon the complexity of their geometry.
 
-<table style="margin-left:auto;margin-right:auto;width:50%">
+<table style="margin-left:auto;margin-right:auto;width:95%">
 	<tr>
 	<td> <img src="https://azhb.github.io/website2DGolfPrefabLevel.PNG" alt="Prefabs" width="400px"></td>
 	</tr>
