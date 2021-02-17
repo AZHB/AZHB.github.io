@@ -22,7 +22,7 @@ In the Godot engine, levels are composed of 'nodes'. Scripts are attached to nod
 
 <table style="margin-left:auto;margin-right:auto;width:80%">
 	<tr>
-	<td> <img src="https://azhb.github.io/websiteGolf2DLevelTree.PNG" alt="Default Level Tree" width="50%"></td> <td> <img src="https://azhb.github.io/websiteGolf2DLevelTreeConcise.PNG" alt="Concise Level Tree" width="50%"></td>
+	<td> <img src="https://azhb.github.io/websiteGolf2DLevelTree.PNG" alt="Default Level Tree" width="200px"></td> <td> <img src="https://azhb.github.io/websiteGolf2DLevelTreeConcise.PNG" alt="Concise Level Tree" width="200px"></td>
 	</tr>
 	<tr>
 		<td> Default Level Tree (Expanded) </td> <td> Default Level Tree </td>	
