@@ -12,7 +12,7 @@ This project features a 2D Golf game made using the open-source Godot engine. Al
 
 <table style="margin-left:auto;margin-right:auto;width:80%">
 	<tr>
-	<td> <img src="https://azhb.github.io/website2DGolfSplash.png" alt="2D Golf" width="460px"></td>
+	<td> <img src="https://azhb.github.io/website2DGolfSplash.png" alt="2D Golf"></td>
 	</tr>
 </table>
 
