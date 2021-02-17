@@ -102,7 +102,7 @@ Rotations, translations and scale adjustments can all be made to static objects 
 
 <table style="margin-left:auto;margin-right:auto;width:50%">
 	<tr>
-	<td> <img src="https://azhb.github.io/website2DGolfDynamic.PNG" alt="Prefabs" width="200px"></td>
+	<td> <img src="https://azhb.github.io/website2DGolfDynamic.PNG" alt="Prefabs" width="800px"></td>
 	</tr>
 </table>
 
@@ -119,9 +119,9 @@ var activated = false setget activated_set
 var clockwise_int
 ```
 
-<table style="margin-left:auto;margin-right:auto;width:50%">
+<table style="margin-left:auto;margin-right:auto;width:50%;">
 	<tr>
-	<td> <img src="https://azhb.github.io/website2DGolfDynamic.PNG" alt="Prefabs" width="200px"></td>
+	<td> <img src="https://azhb.github.io/FlipperLevel.gif" alt="Prefabs" width="200px"></td>
 	</tr>
 </table>
 
