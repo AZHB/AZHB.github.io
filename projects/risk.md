@@ -44,7 +44,7 @@ To provide some context on the inner workings of the algorithm, it is useful to 
 	</tr>
 </table>
 
-In a single round, the attacking player rolls a maximum of *3* dice and the defender rolls a maximum of *2* dice. The highest dice roll of each player is compared, and then the second highest and so on. If the dice roll of the attacking player is greater than the defender's, then the defender loses a unit. If the dice roll of the attacking player is less than or equal to the defender's, then the attacker loses a unit. Below are some examples to demonstrate this from the official rules:
+In a single round, the attacking player rolls a maximum of *3* dice and the defender rolls a maximum of *2* dice. The highest dice roll of each player is compared, and then the second highest and so on. If the dice roll of the attacking player is greater than the defender's, then the defender loses a unit. If the dice roll of the attacking player is less than or equal to the defender's, then the attacker loses a unit. Below are some examples to demonstrate this from <a href="https://www.hasbro.com/common/instruct/risk.pdf"> the official rules </a>:
 
 <table style="margin-left:auto;margin-right:auto;">
 	<tr>
