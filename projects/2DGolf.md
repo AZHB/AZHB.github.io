@@ -20,7 +20,7 @@ This project features a 2D Golf game made using the open-source Godot engine. Al
 
 In the Godot engine, levels are composed of 'nodes'. Scripts are attached to nodes to implement functionality. Nodes can be parented to other nodes to form tree-like structures. In this way, the Godot engine uses both inheritance (attaching scripts to derive an inherited class) and composition (attaching nodes as children to other nodes) to create complex games. The image below demonstrates this concept - it is the default structure of nodes that makes up a basic level in 2D Golf. I always begin with this structure when implementing new levels. 
 
-<table style="margin-left:auto;margin-right:auto;width:80%">
+<table style="margin-left:auto;margin-right:auto;width:50%">
 	<tr>
 	<td> <img src="https://azhb.github.io/websiteGolf2DLevelTree.PNG" alt="Default Level Tree" width="200px"></td> <td> <img src="https://azhb.github.io/websiteGolf2DLevelTreeConcise.PNG" alt="Concise Level Tree" width="200px"></td>
 	</tr>
