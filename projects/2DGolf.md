@@ -39,6 +39,33 @@ The player manager node is responsible for handling all of the player logic. It 
 
 The level manager is responsible for storing and manipulating all of the key level-specific data, including how many shots the player has left, how much time is left, the players score etc. It also communicates with the player manager. It has a child node called 'ruleset'. The ruleset node defines the nature of the level - is there a time limit? Is there a limit to the number of shots? etc. The player manager node has a common interface with the ruleset node, allowing new rulesets to be made by inheriting from the base ruleset node to add or change funcionality.
 
+```gdscript
+extends Node
+
+##Scene References##
+var interactables
+var ruleset
+var player_ui
+
+##Internal variables##
+var shots_left
+var time_left
+var timer
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	interactables = get_parent().get_node("Interactables")
+	ruleset = get_node("Ruleset")
+	player_ui = get_parent().get_node("UI/PlayerUI")
+	timer = $Timer
+	shots_left = ruleset.num_shots
+	time_left = ruleset.time_limit
+	if shots_left != INF:
+		player_ui.update_shots(shots_left)
+	#if time_left != INF:
+	#	timer.start(1)
+```
+
 <h2> Gameplay Features </h2>
 
 <h4> Static Objects </h4>
