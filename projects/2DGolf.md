@@ -69,7 +69,7 @@ This section will provide details on some of the many gameplay elements included
 
 <table style="margin-left:auto;margin-right:auto;width:50%">
 	<tr>
-	<td> <img src="https://azhb.github.io/website2DGolfBasicLevelEditor.PNG" alt="Basic level in editor" width="600px"> <img src="https://azhb.github.io/test.gif" alt="Basic level animation" width="600px"> </td> 
+	<td> <img src="https://azhb.github.io/website2DGolfBasicLevelEditor.PNG" alt="Basic level in editor" width="1000px"> <img src="https://azhb.github.io/test.gif" alt="Basic level animation" width="1000px"> </td> 
 	</tr>
 </table>
 
