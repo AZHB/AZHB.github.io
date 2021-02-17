@@ -123,7 +123,7 @@ reverse(dRolls.begin(),dRolls.end());
 
 <h4>Calculating result</h4>
 
-
+Since the vectors of dice rolls are already sorted, comparing the highest dice rolls of each player is a simple process. The code extract below shows this comparison and subsequent updating of (in this case a copy of) the number of units left for each player. You can also see the calculation of how many comparisons are to be made by finding the min() of the number of rolls made by each player - this allows the algorithm to handle all possible values of *d* and *a* with one function simultaneously.
 
 ```cpp
 //Calculate damage to attacker and defender
