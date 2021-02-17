@@ -18,7 +18,9 @@ This project features a 2D Golf game made using the open-source Godot engine. Al
 
 <h2> Game Architecture </h2>
 
-Godot 
+In the Godot engine, levels are composed of 'nodes'. Scripts are attached to nodes to implement functionality. Nodes can be parented to other nodes to form tree-like structures. In this way, the Godot engine uses both inheritance (attaching scripts to derive an inherited class) and composition (attaching nodes as children to other nodes) to create complex games. The image below demonstrates this concept - it is the default structure of nodes that makes up a basic level in 2D Golf. I always begin with this structure when implementing new levels. 
+
+
 
 <h4> Player Manager </h4>
 
