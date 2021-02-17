@@ -70,9 +70,10 @@ The psuedocode for the algorithm is detailed below.
 Ask user for input a,d,n
 Do n times:
 	while(a>0 and d>0):
-		SimulateBattleRound()
-		ChangeUnitsLeft()
-	if a<0:
+		GenerateDiceRolls()
+		CalculateResult()
+		UpdateUnitsLeft()
+	if a>0:
 		wins++
 return wins/n
 ```
