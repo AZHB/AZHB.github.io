@@ -53,12 +53,18 @@ Once a round has been resolved, the next round begins and new dice are cast (ass
 <h2> Algorithm Overview </h2>
 
 <h4>Monte carlo method</h4>
+
+The approach that the algorithm takes is classified as a Monte Carlo method - it relies on generating random draws from a probability distribution to approximate the solution of a deterministic problem. In this instance, we are generating dice rolls to simulate battles with the given number of attacking units *a* and defending units *d*. The algorithm does this *n* times, to generate the probability as the proportion of battles won. As *n* becomes large, the estimate approaches the true probability due to the aptly named law of large numbers. 
+
 <h4>Psuedocode</h4>
+
+
+
 <h4>An alternative approach</h4>
 
 Whilst mathematically complex, it is possible to calculate exactly the probability of a victory for any number of attackers and defenders using an analytical method. Specific details of such an approach can be found here, with the probabilities displayed below:
 
-<img src="https://azhb.github.io/websiteRiskProbabilities.png" alt="Risk Probabilities" width="443px" style="left-margin:auto;right-margin:auto;"> 
+<img src="https://azhb.github.io/websiteRiskProbabilities.png" alt="Risk Probabilities" width="60%" style="left-margin:auto;right-margin:auto;"> 
 
 The most efficient program would consist of storing and retrieving these pre-calculated probabilities. Even calculating these probabilites at run-time would be more efficient than the Monte-Carlo method discussed here, particularly when the number of simulations becomes large. However, the algorithm described in this project is simpler to implement and understand, whilst still achieving an acceptable level of efficiency.
 
