@@ -65,11 +65,11 @@ The code block above shows the initialization of the level manager, demonstratin
 
 <h2> Gameplay Features </h2>
 
-This section will provide details on some of the many gameplay elements included in this prototype. The very basic level pictured below demonstrates the core gameplay mechanic and the user interface. There are far more interesting and varied features explored in this section! Super wide below?
+This section will provide details on some of the many gameplay elements included in this prototype. The very basic level pictured below demonstrates the core gameplay mechanic and the user interface. There are far more interesting and varied features explored in this section! Super wide below? Hope so.
 
-<table style="margin-left:auto;margin-right:auto;width:50%">
+<table style="margin-left:auto;margin-right:auto>
 	<tr>
-	<td> <img src="https://azhb.github.io/website2DGolfBasicLevelEditor.PNG" alt="Basic level in editor" width="1000px"> <img src="https://azhb.github.io/test.gif" alt="Basic level animation" width="1000px"> </td> 
+	<td> <img src="https://azhb.github.io/website2DGolfBasicLevelEditor.PNG" alt="Basic level in editor" width="800px"> <img src="https://azhb.github.io/test.gif" alt="Basic level animation" width="800px"> </td> 
 	</tr>
 </table>
 
