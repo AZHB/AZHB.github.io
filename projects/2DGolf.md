@@ -10,9 +10,9 @@ title: "Golf in 2D"
 
 This project features a 2D Golf game made using the open-source Godot engine. All gameplay functionality was written using GDScript (very similar in syntax to C#) and Godot's own API. This page details highlights of some of the elements included in the game prototype along with a breakdown of how certain features were implemented. Godot was chosen as it is open-source, community-driven and written with C++, a language that I am confident with. This allowed me to develop an insight into understanding the inner workings of a game engine, particularly with regards to the simulation of physics. I also created a fun game prototype out of it, of course!
 
-<table style="margin-left:auto;margin-right:auto;width:80%">
+<table style="margin-left:auto;margin-right:auto;width:60%">
 	<tr>
-	<td> <img src="https://azhb.github.io/website2DGolfSplash.png" alt="2D Golf" width="400px"></td>
+	<td> <img src="https://azhb.github.io/website2DGolfSplash.png" alt="2D Golf" width="443px"></td>
 	</tr>
 </table>
 
@@ -22,7 +22,7 @@ In the Godot engine, levels are composed of 'nodes'. Scripts are attached to nod
 
 <table style="margin-left:auto;margin-right:auto;width:80%">
 	<tr>
-	<td> <img src="https://azhb.github.io/websiteGolf2DLevelTree.png" alt="Default Level Tree" width="200px"></td>
+	<td> <img src="https://azhb.github.io/websiteGolf2DLevelTree.PNG" alt="Default Level Tree" width="200px"></td>
 	</tr>
 </table>
 
