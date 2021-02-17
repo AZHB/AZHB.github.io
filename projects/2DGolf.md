@@ -127,9 +127,20 @@ var clockwise_int
 
 <h4> Interactive elements </h4>
 
-All interactive elements share a common interface. All have setters and getters. Class doesnt call its own setter to not get stuck in loop.
+Within the framework of my game prototype, there are lots of gameplay elements (such as the spinner seen before) that can be activated and deactivated. I refer to these elements as 'interactive elements', and they all implement a common interface. This lets me activate and/or deactivate multiple interactive elements with the same function call. The crucial aspect of this approach is the use of 'setter' and 'getter' functions that are called when a class variable is changed, allowing all of the logic and animation of an interactive element to be handled by itself at the moment of activation/deactivation. Below we can see some examples of interactive elements being activated/deactivated by the two types of nodes that I have made to currently support this - buttons and switches. 
+
+<table> buttons and switches gifs here
+	</table>
 
 <h4> Force Generators </h4>
+
+I have used the Area2D node provided by Godot to implement 'force generator' nodes that effectively push or pull the player's ball when it is within a defined region. Since the force generator node inherits from the Area2D node, it retains the functionality to detect overlapping physics bodies within a defined region. If it detects a physics body, it checks to see that it is a player ball and then subsequently modifies or overwrites the forces acting upon the player's ball in each step of the physics engine. 
+
+<table> force generator construction 
+	</table>
+	
+<table> force generator level
+	</table>
 
 <h4> Launchers </h4>
 
