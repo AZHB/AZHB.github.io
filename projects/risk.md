@@ -46,7 +46,7 @@ To provide some context on the inner workings of the algorithm, it is useful to 
 
 In a single round, the attacking player rolls a maximum of *3* dice and the defender rolls a maximum of *2* dice. The highest dice roll of each player is compared, and then the second highest and so on. If the dice roll of the attacking player is greater than the defender's, then the defender loses a unit. If the dice roll of the attacking player is less than or equal to the defender's, then the attacker loses a unit. Below are some examples to demonstrate this from the official rules:
 
-<table style="margin-left:auto;margin-right:auto">
+<table style="margin-left:auto;margin-right:auto;">
 	<tr>
 	<td> <img src="https://azhb.github.io/websiteRiskExamples.PNG" alt="Risk examples" width="791px"> </td>
 	</tr>
@@ -70,7 +70,7 @@ $$ \text{probability} = \frac{\text{number of wins}}{n} $$
 
 Whilst mathematically complex, it is possible to calculate exactly the probability of a victory for any number of attackers and defenders using an analytical method. Specific details of such an approach can be found here, with the probabilities displayed below:
 
-<table style="margin-left:auto;margin-right:auto">
+<table style="margin-left:auto;margin-right:auto;width:60%">
 	<tr>
 		<td> <img src="https://azhb.github.io/websiteRiskProbabilities.png" alt="Risk Probabilities" width="443px"> </td>
 	</tr>
