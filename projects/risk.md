@@ -79,11 +79,11 @@ return wins/n
 ```
 <h4>An alternative approach</h4>
 
-Whilst mathematically complex, it is possible to calculate exactly the probability of a victory for any number of attackers and defenders using an analytical method. Specific details of such an approach can be found here, with the probabilities displayed below:
+Whilst mathematically complex, it is possible to calculate exactly the probability of a victory for any number of attackers and defenders using an analytical method. Specific details of such an approach can be found in <a href="https://www4.stat.ncsu.edu/~jaosborn/research/RISK.pdf">this paper by J. A. Osbourne</a>, with the probabilities displayed below:
 
 <table style="margin-left:auto;margin-right:auto;width:60%">
 	<tr>
-		<td> <img src="https://azhb.github.io/websiteRiskProbabilities.png" alt="Risk Probabilities" width="443px"> </td>
+		<td> <img src="https://azhb.github.io/websiteRiskProbabilitiesMarkov.png" alt="Risk Probabilities" width="443px"> <a href="https://www4.stat.ncsu.edu/~jaosborn/research/RISK.pdf"> Image Source </a> </td>
 	</tr>
 </table>
 
