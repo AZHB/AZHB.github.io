@@ -48,7 +48,7 @@ In a single round, the attacking player rolls a maximum of *3* dice and the defe
 
 <table style="margin-left:auto;margin-right:auto;">
 	<tr>
-	<td> <img src="https://azhb.github.io/websiteRiskExamples.PNG" alt="Risk examples" width="791px"> </td>
+	<td> <img src="https://azhb.github.io/websiteRiskExamples.PNG" alt="Risk examples" width="791px"> <a href="https://www.hasbro.com/common/instruct/risk.pdf"> Image Source </a> </td>
 	</tr>
 </table>
 
