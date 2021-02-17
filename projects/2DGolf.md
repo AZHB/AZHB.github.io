@@ -12,7 +12,7 @@ This project features a 2D Golf game made using the open-source Godot engine. Al
 
 <table style="margin-left:auto;margin-right:auto;width:60%">
 	<tr>
-	<td> <img src="https://azhb.github.io/website2DGolfSplash.png" alt="2D Golf" width="443px"></td>
+	<td> <img src="https://azhb.github.io/website2DGolfSplash.png" alt="2D Golf" width="240px"></td>
 	</tr>
 </table>
 
@@ -65,7 +65,26 @@ The code block above shows the initialization of the level manager, demonstratin
 
 <h2> Gameplay Features </h2>
 
+Intro here
+Gif of a basic level
+
 <h4> Static Objects </h4>
+
+talk about tree structure of a static object (simple and complex)
+show image of above
+
+<table style="margin-left:auto;margin-right:auto;width:50%">
+	<tr>
+	<td> <img src="https://azhb.github.io/website2DGolfPrefab.PNG" alt="Prefab" width="200px"> <img src="https://azhb.github.io/website2DGolfPrefabTree.PNG" alt="Prefab Tree" width="200px"> </td> 
+	<td> <img src="https://azhb.github.io/website2DGolfPrefabAdvanced.PNG" alt="Advanced Prefab" width="200px"> <img src="https://azhb.github.io/website2DGolfPrefabAdvancedTree.PNG" alt="Advanced Prefab Tree" width="200px"> </td>
+	</tr>
+	<tr>
+		<td> Simple Geometry </td> <td> Complex Geometry </td>	
+	</tr>
+</table>
+
+talk about using prefab shapes to prototype levels
+show image of above
 
 <h4> Dynamic Objects </h4>
 
