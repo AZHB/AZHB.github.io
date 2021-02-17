@@ -71,7 +71,8 @@ Gif of a basic level
 <h4> Static Objects </h4>
 
 talk about tree structure of a static object (simple and complex)
-show image of above
+
+The majority of the level geometry is composed of static objects. These nodes have a Sprite (which includes functionality to render an image to the screen each frame) and a Collision Shape (which includes functionality to detect overlaps and collision within the physics engine). For nodes that have more complex shapes, the Collision Shape is replaced by a Collision Polygon. A Collision Polygon seperates the geometry of the shape (automatically or by hand) into distinct polygons to allow for efficient collsion detection. 
 
 <table style="margin-left:auto;margin-right:auto;width:50%">
 	<tr>
