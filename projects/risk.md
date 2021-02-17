@@ -64,7 +64,7 @@ $$ \text{probability} \underset{n \to \infty}{\to} \frac{\text{number of wins}}{
 
 <h4>Psuedocode</h4>
 
-The psuedocode for the algorithm is detailed below.
+The basic structure of the algorithm is detailed below. Of course, the majority of the work will be done within the function calls. For more information, refer to the code breakdown section of this page or the <a href="https://github.com/AZHB/risk-battle-calculator">source code itself</a>.
 
 ```
 Ask user for input a,d,n
@@ -77,7 +77,6 @@ Do n times:
 		wins++
 return wins/n
 ```
-
 <h4>An alternative approach</h4>
 
 Whilst mathematically complex, it is possible to calculate exactly the probability of a victory for any number of attackers and defenders using an analytical method. Specific details of such an approach can be found here, with the probabilities displayed below:
@@ -92,7 +91,11 @@ The most efficient program would consist of storing and retrieving these pre-cal
 
 <h2> Code Breakdown </h2>
 
-<p> Generating Dice Rolls</p>
+This section will break down some of the crucial parts of the algorithm's source code, which can be <a href="https://github.com/AZHB/risk-battle-calculator">found in its entirety here</a>. 
+
+<h4> Generating Dice Rolls</h4>
+
+Dice rolls are generated using the code below and are stored in two vectors (one for the attacker's rolls and one for the defender's). The size of the vectors is pre-calculated, taking into account how many dice rolls each player is currently allowed to make. This function simply iterates over the vectors and uses the rand() function from the standard template library.
 
 ```cpp
 //Generate random dice rolls
@@ -106,7 +109,9 @@ for(vector<int>::iterator it=dRolls.begin();it!=dRolls.end();it++){
 }
 ```
 
-<p> Sorting Dice Rolls </p>
+<h4> Sorting Dice Rolls </h4>
+
+Once the dice rolls have been generated, the algorithm needs to calculate a result by comparing the dice rolls of the players. To make this convenient, the vectors are first sorted into descending order using the functions within <algorithm>. This keeps the code simple and maintainable with negligible cost to runtime.
 
 ```cpp
 //Sort random dice rolls for comparison
@@ -116,7 +121,9 @@ sort(dRolls.begin(),dRolls.end());
 reverse(dRolls.begin(),dRolls.end());
 ```
 
-<p>Calculating result</p>
+<h4>Calculating result</h4>
+
+
 
 ```cpp
 //Calculate damage to attacker and defender
