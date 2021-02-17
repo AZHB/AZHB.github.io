@@ -22,9 +22,14 @@ In the Godot engine, levels are composed of 'nodes'. Scripts are attached to nod
 
 <table style="margin-left:auto;margin-right:auto;width:80%">
 	<tr>
-	<td> <img src="https://azhb.github.io/websiteGolf2DLevelTree.PNG" alt="Default Level Tree" width="200px"></td>
+	<td> <img src="https://azhb.github.io/websiteGolf2DLevelTree.PNG" alt="Default Level Tree" width="50%"></td> <td> <img src="https://azhb.github.io/websiteGolf2DLevelTreeConcise.PNG" alt="Concise Level Tree" width="50%"></td>
+	</tr>
+	<tr>
+		<td> Default Level Tree (Expanded) </td> <td> Default Level Tree </td>	
 	</tr>
 </table>
+
+In the Godot engine, nodes communicate with each other using references obtained from the scene tree (by either navigating through the parent-child relationships or through hard-coded paths). It is crucial, then, that the scene tree for a level always uses the same structure so that the functionality programmed into nodes is reusable across levels.
 
 <h4> Player Manager </h4>
 
