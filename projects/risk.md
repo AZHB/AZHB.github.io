@@ -64,7 +64,18 @@ $$ \text{probability} \underset{n \to \infty}{\to} \frac{\text{number of wins}}{
 
 <h4>Psuedocode</h4>
 
+The psuedocode for the algorithm is detailed below.
 
+```
+Ask user for input a,d,n
+Do n times:
+	while(a>0 and d>0):
+		SimulateBattleRound()
+		ChangeUnitsLeft()
+	if a<0:
+		wins++
+return wins/n
+```
 
 <h4>An alternative approach</h4>
 
