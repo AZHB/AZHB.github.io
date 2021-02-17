@@ -31,10 +31,6 @@ In the Godot engine, levels are composed of 'nodes'. Scripts are attached to nod
 
 In the Godot engine, nodes communicate with each other using references obtained from the scene tree (by either navigating through the parent-child relationships or through hard-coded paths). It is crucial, then, that the scene tree for a level always uses the same structure so that the functionality programmed into nodes is reusable across levels.
 
-<h4> Player Manager </h4>
-
-The player manager node is responsible for handling all of the player logic. It must communicate with the level manager to determine the status of some important variables such as how many shots are left to take (if any). It is the parent node of the player. 
-
 <h4> Level Manager </h4>
 
 The level manager is responsible for storing and manipulating all of the key level-specific data, including how many shots the player has left, how much time is left, the players score etc. It also communicates with the player manager and user interface. It has a child node called 'ruleset'. The ruleset node defines the nature of the level - Is there a time limit? Is there a limit to the number of shots? The player manager node has a common interface with the ruleset node, allowing new rulesets to be made by inheriting from the base ruleset node to add or change funcionality.
@@ -65,7 +61,7 @@ func _ready():
 	#if time_left != INF:
 	#	timer.start(1)
 ```
-The code block above shows the initialization of the level manager, demonstrating how to get a reference to another node using string-paths from the root node of the leve (as in "UI/PlayerUI") and by navigating the parent-child tree (as in $Timer).
+The code block above shows the initialization of the level manager, demonstrating how to get a reference to another node using string-paths from the root node of the leve (as in "UI/PlayerUI") and by navigating the parent-child tree (as in $Timer). Note that all class variables are public in Godot, so I opt to use the terminology 'internal' (to refer to variables modified by the class or its children within a script) and 'external' (to refer to variables that I have exposed to changes within the Godot editor).
 
 <h2> Gameplay Features </h2>
 
