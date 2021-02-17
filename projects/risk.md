@@ -60,7 +60,7 @@ Once a round has been resolved, the next round begins and new dice are cast (ass
 
 The approach that the algorithm takes is classified as a Monte Carlo method - it relies on generating random draws from a probability distribution to approximate the solution of a deterministic problem. In this instance, we are generating dice rolls to simulate battles with the given number of attacking units *a* and defending units *d*. The algorithm does this *n* times, to generate the probability as the proportion of battles won. As *n* becomes large, the estimate approaches the true probability due to the aptly named <a href="https://en.wikipedia.org/wiki/Law_of_large_numbers">law of large numbers theory</a>. 
 
-$$ \text{probability} \underset{n \to \infty}{\to} \frac{\text{number of wins}}{n} $$
+$$ \frac{\text{number of wins}}{n} \underset{n \to \infty}{\to} \text{probability} $$
 
 <h4>Psuedocode</h4>
 
@@ -121,7 +121,7 @@ sort(dRolls.begin(),dRolls.end());
 reverse(dRolls.begin(),dRolls.end());
 ```
 
-<h4>Calculating result</h4>
+<h4>Calculating the Result of a Battle Round</h4>
 
 Since the vectors of dice rolls are already sorted, comparing the highest dice rolls of each player is a simple process. The code extract below shows this comparison and subsequent updating of (in this case a copy of) the number of units left for each player. You can also see the calculation of how many comparisons are to be made by finding the min() of the number of rolls made by each player - this allows the algorithm to handle all possible values of *d* and *a* with one function simultaneously.
 
