@@ -33,7 +33,11 @@ In the Godot engine, nodes communicate with each other using references obtained
 
 <h4> Player Manager </h4>
 
+The player manager node is responsible for handling all of the player logic. It must communicate with the level manager to determine the status of some important variables such as how many shots are left to take (if any). It is the parent node of the player. 
+
 <h4> Level Manager </h4>
+
+The level manager is responsible for storing and manipulating all of the key level-specific data, including how many shots the player has left, how much time is left, the players score etc. It also communicates with the player manager. It has a child node called 'ruleset'. The ruleset node defines the nature of the level - is there a time limit? Is there a limit to the number of shots? etc. The player manager node has a common interface with the ruleset node, allowing new rulesets to be made by inheriting from the base ruleset node to add or change funcionality.
 
 <h2> Gameplay Features </h2>
 
