@@ -193,6 +193,24 @@ Within the framework of my game prototype, there are lots of gameplay elements (
 	</tr>
 </table>
 
+<table style="margin-left:auto;margin-right:auto;width:50%">
+	<tr>
+	<td> <img src="https://azhb.github.io/PlateLevel.gif" alt="Plate Level"> </td> 
+	</tr>
+	<tr>
+		<td> Pressure Plate </td>
+	</tr>
+</table>
+
+<table style="margin-left:auto;margin-right:auto;width:50%">
+	<tr>
+	<td> <img src="https://azhb.github.io/SwitchLevel.gif" alt="Switch Level"> </td> 
+	</tr>
+	<tr>
+		<td> Switch </td>
+	</tr>
+</table>
+
 <h4> Force Generators </h4>
 
 I have used the Area2D node provided by Godot to implement 'force generator' nodes that effectively push or pull the player's ball when it is within a defined region. Since the force generator node inherits from the Area2D node, it retains the functionality to detect overlapping physics bodies within a defined region. If it detects a physics body, it checks to see that it is a player ball and then subsequently modifies or overwrites the forces acting upon the player's ball in each step of the physics engine. 
