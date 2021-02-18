@@ -125,11 +125,65 @@ var clockwise_int
 	</tr>
 </table>
 
+For some elements, I have attached children nodes that further allow customisation in the editor. For example, the moving platforms below have a node called 'Platform End' that can be positioned in the editor. The platform will always move towards this point. Some variables have also been exposed in the editor, including platform movement speed and wait time. All of this culminates in a moving platform node that is dynamic, reusable and easy to understand. The code block below describes this in further detail. The actual movement of the platform takes place in the "physics process" callback, which is synchronised to run in step with the physics engine to preserve collision interactions.
+
+<table>
+Moving platform example	
+</table>
+
+```gdscript
+#external variables
+export(int) var speed = 1
+export(int) var wait_time = 3
+export(bool) var automatic = true
+
+#internal varaibles
+var coll_shape
+var wait_timer
+var mid_sprite_tex
+var move_vec
+var current_dist
+var b_moving = false
+var activated = false setget activated_set
+var b_waiting = false
+
+func activated_set(p_activated):
+	activated=p_activated
+
+func _physics_process(delta):
+	if activated and !b_waiting:
+		if current_dist == 0:
+			move_vec = -move_vec
+			current_dist = move_vec.length()
+			wait_timer.start()
+			b_waiting = true
+		else:
+			$MovingPlatform.position += move_vec.clamped(min(speed,current_dist))
+			current_dist -= min(speed,current_dist)
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	wait_timer = $Timer
+	wait_timer.wait_time = wait_time
+	coll_shape = $MovingPlatform/CollisionShape2D
+	mid_sprite_tex = preload("res://Scenes/LevelDesign/Prefabs/MovingPlatform/platformMid.png")
+	if automatic:
+		activated = true
+	else:
+		activated = false
+	move_vec = $PlatformEnd.position - $MovingPlatform.position
+	current_dist = move_vec.length()
+	
+	#Set physics material through code
+	Physics2DServer.body_set_param($MovingPlatform.get_rid(), Physics2DServer.BODY_PARAM_BOUNCE, 0)
+	Physics2DServer.body_set_param($MovingPlatform.get_rid(), Physics2DServer.BODY_PARAM_FRICTION, 1)
+```
+
 <h4> Interactive elements </h4>
 
-Within the framework of my game prototype, there are lots of gameplay elements (such as the spinner seen before) that can be activated and deactivated. I refer to these elements as 'interactive elements', and they all implement a common interface. This lets me activate and/or deactivate multiple interactive elements with the same function call. The crucial aspect of this approach is the use of 'setter' and 'getter' functions that are called when a class variable is changed, allowing all of the logic and animation of an interactive element to be handled by itself at the moment of activation/deactivation. Below we can see some examples of interactive elements being activated/deactivated by the two types of nodes that I have made to currently support this - buttons and switches. 
+Within the framework of my game prototype, there are lots of gameplay elements (such as the spinner and moving platform seen before) that can be activated and deactivated. I refer to these elements as 'interactive elements', and they all implement a common interface. This lets me activate and/or deactivate multiple interactive elements with the same function call. The crucial aspect of this approach is the use of 'setter' and 'getter' functions that are called when a class variable is changed, allowing all of the logic and animation of an interactive element to be handled by itself at the moment of activation/deactivation. Below we can see some examples of interactive elements being activated/deactivated by the two types of nodes that I have made to currently support this - buttons and pressure plates. 
 
-<table> buttons and switches gifs here
+<table> buttons and pressure plate gifs here
 	</table>
 
 <h4> Force Generators </h4>
@@ -143,6 +197,20 @@ I have used the Area2D node provided by Godot to implement 'force generator' nod
 	</table>
 
 <h4> Launchers </h4>
+
+```gdscript
+	#Set user-defined editor properties for flip animation
+	#var flip_anim = anim_player.get_animation("Flip")
+	var flip_anim = preload("res://Scenes/LevelDesign/Prefabs/Flipper/flip.tres").duplicate()
+	flip_anim.add_track(flip_anim.TYPE_VALUE,0) #FINISH
+	flip_anim.track_set_path(0,"../Flipper:rotation_degrees")
+	flip_anim.track_insert_key(0,0,0,1)
+	flip_anim.track_insert_key(0,flip_time,45,1)
+	flip_anim.track_insert_key(0,flip_time+flip_hold_time,45,1)
+	flip_anim.track_insert_key(0,flip_time+flip_time+flip_hold_time,0,1)
+	flip_anim.set_length(flip_time+flip_time+flip_hold_time)
+	anim_player.add_animation(name,flip_anim)
+```
 
 <h4> Physical Surface Properties </h4>
 
