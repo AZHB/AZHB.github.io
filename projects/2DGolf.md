@@ -205,10 +205,10 @@ Within the framework of my game prototype, there are lots of gameplay elements (
 
 I have used the Area2D node provided by Godot to implement 'force generator' nodes that effectively push or pull the player's ball when it is within a defined region. Since the force generator node inherits from the Area2D node, it retains the functionality to detect overlapping physics bodies within a defined region. If it detects a physics body, it checks to see that it is a player ball and then subsequently modifies or overwrites the forces acting upon the player's ball in each step of the physics engine. 
 
-<table style="margin-left:auto;margin-right:auto>
+<table style="margin-left:auto;margin-right:auto;width:50%>
 	<tr>
-		<td> <img src="https://azhb.github.io/websiteGeneratorTree.png" alt="Generator Tree" width="250"> <img src="https://azhb.github.io/webisteGeneratorVariables.png" alt="Generator Variables" width="250"> </td>
-		<td> <img src="https://azhb.github.io/webisteGenerator.png" alt="Generator" width="250"> </td>
+		<td> <img src="https://azhb.github.io/websiteGeneratorTree.png" alt="Generator Tree"> <img src="https://azhb.github.io/webisteGeneratorVariables.png" alt="Generator Variables"> </td>
+		<td> <img src="https://azhb.github.io/webisteGenerator.png" alt="Generator"> </td>
 	</tr>
 	<tr>
 		<td colspan="2" style="text-align:center"> Generator Construction </td>
@@ -217,10 +217,10 @@ I have used the Area2D node provided by Godot to implement 'force generator' nod
 	
 <table style="margin-left:auto;margin-right:auto;width:95%">
 	<tr>
-	<td> <img src="https://azhb.github.io/SwitchLevel.gif" alt="Switch Level"> </td> 
+	<td> <img src="https://azhb.github.io/GenratorLevel.gif" alt="Switch Level"> </td> 
 	</tr>
 	<tr>
-		<td style="text-align:center"> Button </td>
+		<td style="text-align:center"> I Have No Memory of This Place </td>
 	</tr>
 </table>
 
