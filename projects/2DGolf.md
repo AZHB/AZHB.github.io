@@ -226,6 +226,8 @@ I have used the Area2D node provided by Godot to implement 'force generator' nod
 
 <h4> Launchers </h4>
 
+In Godot, a wide range of a nodes properties can be animated. I have used this feature to create a custom 'flipper' node that launches the player's ball. By exposing variables in the editor, the movement of the flipper node can be heavily customised during the level design process. The code block below shows how the custom animation is created using variables set on a per-instance basis in the editor. Note that each flipper node in a level gets its own animation resource copy using the duplicate() method - resources are shared between nodes in Godot by default, which is not the desired behaviour here as it would force all flippers to behave identically. 
+
 ```gdscript
 	#Set user-defined editor properties for flip animation
 	#var flip_anim = anim_player.get_animation("Flip")
