@@ -29,7 +29,7 @@ Recent Projects
   </tr>
 </table>
 
-<a href="https://azhb.github.io/projects/trajectories"> Implementing Trajectories in Games </a>
+<a href="https://azhb.github.io/projects/trajectories/"> Implementing Trajectories in Games </a>
 --------
 
 <table>
