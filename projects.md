@@ -7,29 +7,6 @@ title: "Projects"
 Recent Projects
 ========
 
-<a href="https://azhb.github.io/projects/3DGolf"> Golf in 3D </a>
---------
-
-<table>
-  <tr>
-    <td style="width:320px"> <img src="../websiteRisk.jpg" alt="Risk" width="320"> <img src="../websiteRiskC++.PNG" alt="Risk" width="320"> </td>
-    <td style="vertical-align:top"> <h3> About </h3>
-         A 3D golf demo built using Unreal Engine and C++. This is an extension of the similar project in 2D, tackling the added complexities of an additional dimension and the challenges that come with this.
-      <h3> Tags </h3>
-      <ul>
-        <li>  C++ </li>
-        <li>  Visual Scripting </li>
-        <li>  Unreal Engine </li>
-        <li>  Game Design </li>
-        <li>  Level Design </li>
-        <li>  3D Modelling </li>
-        <li>  Mathematics </li>
-        <li>  Physics </li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
 <a href="https://azhb.github.io/projects/2DGolf"> Golf in 2D </a>
 --------
 
@@ -47,6 +24,28 @@ Recent Projects
         <li>  Level Design </li>
         <li>  Mathematics </li>
         <li>  Physics </li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<a href="https://azhb.github.io/projects/trajectories"> Implementing Trajectories in Games </a>
+--------
+
+<table>
+  <tr>
+    <td style="width:320px">  </td>
+    <td style="vertical-align:top"> <h3> About </h3>
+         A brief analysis of the main ways of implementing player-controlled trajectories in video games, accompanied by code (written in C++) that keeps the endpoint of a trajectory in place even whilst one trajectory parameter is varied.
+      <h3> Tags </h3>
+      <ul>
+        <li>  C++ </li>
+        <li>  Unreal Engine </li>
+        <li>  User Interface </li>
+        <li>  Game Design </li>
+        <li>  Vector Geometry </li>
+        <li>  Newtonian Mechanics </li>
+        <li>  Mathematics </li>
       </ul>
     </td>
   </tr>
@@ -70,6 +69,29 @@ Recent Projects
         <li>  Random Number Generation </li>
         <li>  Runtime Analysis </li>
         <li>  Big-O Notation </li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<a href="https://azhb.github.io/projects/3DGolf"> Golf in 3D </a>
+--------
+
+<table>
+  <tr>
+    <td style="width:320px"> <img src="../websiteRisk.jpg" alt="Risk" width="320"> <img src="../websiteRiskC++.PNG" alt="Risk" width="320"> </td>
+    <td style="vertical-align:top"> <h3> About </h3>
+         A 3D golf demo built using Unreal Engine and C++. This is an extension of the similar project in 2D, tackling the added complexities of an additional dimension and the challenges that come with this.
+      <h3> Tags </h3>
+      <ul>
+        <li>  C++ </li>
+        <li>  Visual Scripting </li>
+        <li>  Unreal Engine </li>
+        <li>  Game Design </li>
+        <li>  Level Design </li>
+        <li>  3D Modelling </li>
+        <li>  Mathematics </li>
+        <li>  Physics </li>
       </ul>
     </td>
   </tr>
