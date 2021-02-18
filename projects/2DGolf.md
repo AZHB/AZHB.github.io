@@ -193,7 +193,7 @@ Within the framework of my game prototype, there are lots of gameplay elements (
 	</tr>
 </table>
 
-<table style="margin-left:auto;margin-right:auto;width:50%">
+<table style="margin-left:auto;margin-right:auto;width:40%">
 	<tr>
 	<td> <img src="https://azhb.github.io/PlateLevel.gif" alt="Plate Level"> </td> 
 	</tr>
@@ -202,7 +202,7 @@ Within the framework of my game prototype, there are lots of gameplay elements (
 	</tr>
 </table>
 
-<table style="margin-left:auto;margin-right:auto;width:50%">
+<table style="margin-left:auto;margin-right:auto;width:95%">
 	<tr>
 	<td> <img src="https://azhb.github.io/SwitchLevel.gif" alt="Switch Level"> </td> 
 	</tr>
