@@ -8,7 +8,7 @@ title: "Golf in 2D"
 
 <h2> Introduction </h2>
 
-This project features a 2D Golf game made using the open-source Godot engine. All gameplay functionality was written using GDScript (very similar in syntax to C#) and Godot's own API. This page details highlights of some of the elements included in the game prototype along with a breakdown of how certain features were implemented. Godot was chosen as it is open-source, community-driven and written with C++, a language that I am confident with. This allowed me to develop an insight into understanding the inner workings of a game engine, particularly with regards to the simulation of physics. I also created a fun game prototype out of it, of course!
+This project features a 2D Golf game made using the open-source Godot engine. All gameplay functionality was written using GDScript (very similar in syntax to C#) and Godot's own API. This page details highlights of some of the elements included in the game prototype along with a breakdown of how certain features were implemented. Godot was chosen as it is open-source, community-driven and written with C++, a language that I am confident with. This allowed me to develop an insight into understanding the inner workings of a game engine, particularly with regards to the simulation of physics. I also created a fun game prototype out of it, of course! 
 
 <table style="margin-left:auto;margin-right:auto;width:50%">
 	<tr>
@@ -255,6 +255,6 @@ As you can see in the prototype level below, each flipper can then be customised
 
 <h4> Physical Surface Properties </h4>
 
+In order to create more variety in level designs, the static ojects in my game have properties that can be changed and modified to effect collisions in different ways. This allows me to simulate a range of different surface types. The demonstrations below show prototype version of ice, sand and a regular surface. 
 
-
-<h2> User Interface </h2>
+<h2 style="text-align:center"> <a href="https://azhb.github.io/"> Return Home </a> </h2>
