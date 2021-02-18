@@ -211,7 +211,7 @@ I have used the Area2D node provided by Godot to implement 'force generator' nod
 		<td> <img src="https://azhb.github.io/webisteGenerator.png" alt="Generator"> </td>
 	</tr>
 	<tr>
-		<td style="text-align:center"> Generator Construction </td>
+		<td colspan="2" style="text-align:center"> Generator Construction </td>
 	</tr>
 </table>
 	
