@@ -197,7 +197,7 @@ Within the framework of my game prototype, there are lots of gameplay elements (
 	<td> <img src="https://azhb.github.io/SwitchLevel.gif" alt="Switch Level"> </td> 
 	</tr>
 	<tr>
-		<td style="text-align:center"> Switch </td>
+		<td style="text-align:center"> Button </td>
 	</tr>
 </table>
 
