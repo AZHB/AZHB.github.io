@@ -215,7 +215,7 @@ I have used the Area2D node provided by Godot to implement 'force generator' nod
 	</tr>
 </table>
 	
-<table style="margin-top:40px;margin-left:auto;margin-right:auto;width:90%">
+<table style="margin-top:40px;margin-left:auto;margin-right:auto;width:50%">
 	<tr>
 	<td> <img src="https://azhb.github.io/GeneratorLevel.gif" alt="Generator Level"> </td> 
 	</tr>
