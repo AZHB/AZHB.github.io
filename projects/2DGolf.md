@@ -67,7 +67,7 @@ The code block above shows the initialization of the level manager, demonstratin
 
 This section will provide details on some of the many gameplay elements included in this prototype. The very basic level pictured below demonstrates the core gameplay mechanic and the user interface. There are far more interesting and varied features explored in this section!
 
-<table style="margin-left:auto;margin-right:auto;width:95%;">
+<table style="margin-left:auto;margin-right:auto;">
 	<tr>
 	<td> <img src="https://azhb.github.io/test.gif" alt="Basic level animation" width="800px"> </td> 
 	</tr>
