@@ -244,7 +244,7 @@ In Godot, a wide range of a nodes properties can be animated. I have used this f
 
 As you can see in the prototype level below, each flipper can then be customised to behave uniquely.
 
-<table style="margin-top:40px;margin-left:auto;margin-right:auto;width:50%">
+<table style="margin-top:40px;margin-left:auto;margin-right:auto;width:95%">
 	<tr>
 	<td> <img src="https://azhb.github.io/LauncherLevel.gif" alt="Launcher Level"> </td> 
 	</tr>
@@ -254,5 +254,7 @@ As you can see in the prototype level below, each flipper can then be customised
 </table>
 
 <h4> Physical Surface Properties </h4>
+
+
 
 <h2> User Interface </h2>
