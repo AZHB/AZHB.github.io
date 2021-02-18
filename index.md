@@ -21,8 +21,6 @@ title: "Evan Tyrrell"
   </div>
 </div>
 
-test6
-
 <table style="margin-top:40px;margin-left:auto;margin-right:auto;">
   <tr>
     <td style="width:200px"> <img src="me.png" alt="Welcome" width="194px"> </td>
