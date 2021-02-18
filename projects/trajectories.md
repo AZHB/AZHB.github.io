@@ -28,6 +28,5 @@ Write the solution here, explanation follows:
 
 <h4> Determining the Endpoint Location </h4>
 
-<h4> Determining the scale factor /{ alpha /} </h4>
+<h4> Determining the scale factor \( alpha \) </h4>
 
-$alpha$
