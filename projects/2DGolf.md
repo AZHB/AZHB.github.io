@@ -226,7 +226,7 @@ I have used the Area2D node provided by Godot to implement 'force generator' nod
 
 <h4> Launchers </h4>
 
-In Godot, a wide range of a nodes properties can be animated. I have used this feature to create a custom 'flipper' node that launches the player's ball. By exposing variables in the editor, the movement of the flipper node can be heavily customised during the level design process. The code block below shows how the custom animation is created using variables set on a per-instance basis in the editor. Note that each flipper node in a level gets its own animation resource copy using the duplicate() method - resources are shared between nodes in Godot by default, which is not the desired behaviour here as it would force all flippers to behave identically. 
+In Godot, a wide range of a nodes properties can be animated. I have used this feature to create a custom 'launcher' node that launches the player's ball. By exposing variables in the editor, the movement of the launcher node can be heavily customised during the level design process. The code block below shows how the custom 'flip' animation is created using variables set on a per-instance basis in the editor. Note that each launcher node in a level gets its own animation resource copy using the duplicate() method - resources are shared between nodes in Godot by default, which is not the desired behaviour here as it would force all launchers to behave identically. 
 
 ```gdscript
 	#Set user-defined editor properties for flip animation
@@ -241,6 +241,17 @@ In Godot, a wide range of a nodes properties can be animated. I have used this f
 	flip_anim.set_length(flip_time+flip_time+flip_hold_time)
 	anim_player.add_animation(name,flip_anim)
 ```
+
+As you can see in the prototype level below, each flipper can then be customised to behave uniquely.
+
+<table style="margin-top:40px;margin-left:auto;margin-right:auto;width:50%">
+	<tr>
+	<td> <img src="https://azhb.github.io/LauncherLevel.gif" alt="Launcher Level"> </td> 
+	</tr>
+	<tr>
+		<td style="text-align:center"> Pinball </td>
+	</tr>
+</table>
 
 <h4> Physical Surface Properties </h4>
 
