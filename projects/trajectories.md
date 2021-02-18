@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: "/projects/2DGolf/"
+permalink: "/projects/trajectories/"
 title: "Trajectories"
 ---
 
