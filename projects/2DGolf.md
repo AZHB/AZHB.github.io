@@ -186,10 +186,10 @@ Within the framework of my game prototype, there are lots of gameplay elements (
 <table style="margin-left:auto;margin-right:auto;width:50%">
 	<tr>
 	<td> <img src="https://azhb.github.io/PlateLevel.gif" alt="Plate Level" width="200px"> </td> 
-	<td> <img src="https://azhb.github.io/ButtonLevel.gif" alt="Button Level" width="200px"> </td>
+	<td> <img src="https://azhb.github.io/SwitchLevel.gif" alt="Button Level" width="1000px"> </td>
 	</tr>
 	<tr>
-		<td> Button </td> <td> Pressure Plate </td>	
+		<td> Pressure Plate </td> <td> Switch </td>	
 	</tr>
 </table>
 
