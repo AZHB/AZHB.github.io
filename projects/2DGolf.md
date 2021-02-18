@@ -205,7 +205,7 @@ Within the framework of my game prototype, there are lots of gameplay elements (
 
 I have used the Area2D node provided by Godot to implement 'force generator' nodes that effectively push or pull the player's ball when it is within a defined region. Since the force generator node inherits from the Area2D node, it retains the functionality to detect overlapping physics bodies within a defined region. If it detects a physics body, it checks to see that it is a player ball and then subsequently modifies or overwrites the forces acting upon the player's ball in each step of the physics engine. 
 
-<table style="margin-left:auto;margin-right:auto;width:50%>
+<table style="margin-left:auto;margin-right:auto;width:50%">
 	<tr>
 		<td> <img src="https://azhb.github.io/websiteGeneratorTree.png" alt="Generator Tree"> <img src="https://azhb.github.io/webisteGeneratorVariables.png" alt="Generator Variables"> </td>
 		<td> <img src="https://azhb.github.io/webisteGenerator.png" alt="Generator"> </td>
