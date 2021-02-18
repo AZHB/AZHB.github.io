@@ -183,8 +183,15 @@ func _ready():
 
 Within the framework of my game prototype, there are lots of gameplay elements (such as the spinner and moving platform seen before) that can be activated and deactivated. I refer to these elements as 'interactive elements', and they all implement a common interface. This lets me activate and/or deactivate multiple interactive elements with the same function call. The crucial aspect of this approach is the use of 'setter' and 'getter' functions that are called when a class variable is changed, allowing all of the logic and animation of an interactive element to be handled by itself at the moment of activation/deactivation. Below we can see some examples of interactive elements being activated/deactivated by the two types of nodes that I have made to currently support this - buttons and pressure plates. 
 
-<table> buttons and pressure plate gifs here
-	</table>
+<table style="margin-left:auto;margin-right:auto;width:50%">
+	<tr>
+	<td> <img src="https://azhb.github.io/PlateLevel.gif" alt="Plate Level" width="200px"> </td> 
+	<td> <img src="https://azhb.github.io/ButtonLevel.gif" alt="Button Level" width="200px"> </td>
+	</tr>
+	<tr>
+		<td> Button </td> <td> Pressure Plate </td>	
+	</tr>
+</table>
 
 <h4> Force Generators </h4>
 
