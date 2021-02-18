@@ -207,8 +207,8 @@ I have used the Area2D node provided by Godot to implement 'force generator' nod
 
 <table style="margin-left:auto;margin-right:auto;width:95%">
 	<tr>
-		<td> <img src="https://azhb.github.io/websiteGeneratorTree.png" alt="Generator Tree"> <img src="https://azhb.github.io/websiteGeneratorVariables.png" alt="Generator Variables"> </td>
-		<td> <img src="https://azhb.github.io/websiteGenerator.png" alt="Generator"> </td>
+		<td> <img src="https://azhb.github.io/websiteGeneratorTree.png" alt="Generator Tree"> <img src="https://azhb.github.io/webisteGeneratorVariables.png" alt="Generator Variables"> </td>
+		<td> <img src="https://azhb.github.io/webisteGenerator.png" alt="Generator"> </td>
 	</tr>
 	<tr>
 		<td style="text-align:center"> Generator Construction </td>
