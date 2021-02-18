@@ -25,7 +25,7 @@ In the Godot engine, levels are composed of 'nodes'. Scripts are attached to nod
 	<td> <img src="https://azhb.github.io/websiteGolf2DLevelTree.PNG" alt="Default Level Tree" width="200px"></td> <td> <img src="https://azhb.github.io/websiteGolf2DLevelTreeConcise.PNG" alt="Concise Level Tree" width="200px"></td>
 	</tr>
 	<tr>
-		<td> Default Level Tree (Expanded) </td> <td> Default Level Tree </td>	
+		<td style="text-align:center"> Default Level Tree (Expanded) </td> <td style="text-align:center"> Default Level Tree </td>	
 	</tr>
 </table>
 
@@ -84,7 +84,7 @@ The majority of the level geometry is composed of static objects. These nodes ha
 	<td> <img src="https://azhb.github.io/website2DGolfPrefabAdvanced.PNG" alt="Advanced Prefab" width="200px"> <img src="https://azhb.github.io/website2DGolfPrefabAdvancedTree.PNG" alt="Advanced Prefab Tree" width="200px"> </td>
 	</tr>
 	<tr>
-		<td> Simple Geometry </td> <td> Complex Geometry </td>	
+		<td style="text-align:center"> Simple Geometry </td> <td style="text-align:center"> Complex Geometry </td>	
 	</tr>
 </table>
 
@@ -183,22 +183,12 @@ func _ready():
 
 Within the framework of my game prototype, there are lots of gameplay elements (such as the spinner and moving platform seen before) that can be activated and deactivated. I refer to these elements as 'interactive elements', and they all implement a common interface. This lets me activate and/or deactivate multiple interactive elements with the same function call. The crucial aspect of this approach is the use of 'setter' and 'getter' functions that are called when a class variable is changed, allowing all of the logic and animation of an interactive element to be handled by itself at the moment of activation/deactivation. Below we can see some examples of interactive elements being activated/deactivated by the two types of nodes that I have made to currently support this - buttons and pressure plates. 
 
-<table style="margin-left:auto;margin-right:auto;width:50%">
-	<tr>
-	<td> <img src="https://azhb.github.io/PlateLevel.gif" alt="Plate Level" width="200px"> </td> 
-	<td> <img src="https://azhb.github.io/SwitchLevel.gif" alt="Button Level" width="1000px"> </td>
-	</tr>
-	<tr>
-		<td> Pressure Plate </td> <td> Switch </td>	
-	</tr>
-</table>
-
 <table style="margin-left:auto;margin-right:auto;width:40%">
 	<tr>
 	<td> <img src="https://azhb.github.io/PlateLevel.gif" alt="Plate Level"> </td> 
 	</tr>
 	<tr>
-		<td> Pressure Plate </td>
+		<td style="text-align:center"> Pressure Plate </td>
 	</tr>
 </table>
 
@@ -207,7 +197,7 @@ Within the framework of my game prototype, there are lots of gameplay elements (
 	<td> <img src="https://azhb.github.io/SwitchLevel.gif" alt="Switch Level"> </td> 
 	</tr>
 	<tr>
-		<td> Switch </td>
+		<td style="text-align:center"> Switch </td>
 	</tr>
 </table>
 
