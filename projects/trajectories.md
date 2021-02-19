@@ -18,8 +18,11 @@ This project will analyse some different methods of constructing trajectories fr
 <p>Generally, there are two main ways to represent trajectories in 3D space - as a length \(l\) and angles from the origin \((\theta_y,\theta_z)\) or as a 3-dimensional vector \((x,y,z)\). Within game development, it is more natural to use the vector representation - the majority of physics engines all use this representation to calculate forces, velocities, impulses and more. However, it turns out that the representations are equivalent anyway, and a conversion exists between them. The example below highlights this for a simple case in 2D - we can convert the trajectory represented by length \(l\) and angle \(\theta_y\) to the same trajectory represented by the vector \((x,y)\) </p>
 
 <table>
-  <tr> <td> Angle representation </td> <td> Vector Representation </td> </tr>  
-<\table>
+  <tr> 
+    <td> Angle representation </td> 
+    <td> Vector Representation </td> 
+  </tr>  
+</table>
 
 Some simple vector geometry provides the following conversions from \((x,y)\) to \(l\) and \(\theta_y\):
 
