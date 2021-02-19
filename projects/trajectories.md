@@ -51,7 +51,7 @@ $$(x,y) = (mouse_x - target_x, mouse_y - target_y)$$
 Where \(mouse_x\) is the x-component of the mouse position and \(target_x\) is the x-component of the projectile to be launched. This method is quick and allows the user to generate any possible trajectory with only a single input (mouse movement).
 
 <table style="margin-left:auto;margin-right:auto;margin-top:40px;width:50%;">
-  <tr> <td> <img src="azhb.github.io/Trajectory2DOne.gif"> </td> </tr>
+  <tr> <td> <img src="https://azhb.github.io/Trajectory2DOne.gif"> </td> </tr>
   <tr> <td style="text-align:center"> Generating a trajectory with a single input </td> </tr>
 </table>
 
