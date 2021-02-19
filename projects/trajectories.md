@@ -17,7 +17,17 @@ title: "Trajectories"
   <tr> <td> Angle representation </td> <td> Vector Representation </td> </tr>  
 <\table>
 
+Some simple vector geometry provides the following conversions from \((x,y)\\) to \(l\) and \(\theta_y\):
 
+$$l = |(x,y)| = \sqrt(x^2+y^2)$$
+$$\theta_y = \tan^{-1}(\frac{y}{x})$$
+
+The reverse conversion is given by the equations:
+
+$$x = l\cos(\theta_y)$$
+$$y = l\sin(\theta_y)$$
+
+Hence, since the conversion between trajectory representations is linear in its time complexity, the choice is largely irrelevant. As mentioned before, this report will choose to use the 3-dimensional vector \((x,y,z)\) as this is the preffered choice in game engines.
 
 <h2> Constructing Trajectories from Input </h2>
 
