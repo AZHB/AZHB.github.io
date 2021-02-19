@@ -65,8 +65,9 @@ $$(x,y) = (x_0,y_0) \times s = (sx_0,sy_0)$$
 This is commonly seen in games like Golf Story (shown below), where the player first uses mouse/cursor movement to determine a direction unit vector \((x_0,y_0)\) and then interacts in some way with a 'strength' user interface (usually timing-based).
 </p>
 
-<table>
-  Golf Story
+<table style="margin-left:auto;margin-right:auto;margin-top:40px;width:50%;">
+  <tr> <td> <img src="https://azhb.github.io/GolfStory.png"> <a href="https://sidebargames.com/golfstory/"> Source </a> </td> </tr>
+  <tr> <td style="text-align:center"> Golf Story uses a power bar (bottom) to set the scalar shot strength \(s\) </td> </tr>
 </table>
 
 <h4> Double Input (3D) </h4>
