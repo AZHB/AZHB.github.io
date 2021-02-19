@@ -11,6 +11,8 @@ title: "Trajectories"
 
 <h1> Implementing Trajectories in Games </h1>
 
+<p>Generally, there are two ways to represent trajectories - as a triplet of angles \(\theta_x,\theta_y,\theta_z) or as a 3-dimensional vector \(x,y,z\). Within game development, it is more natural to use the vector representation - the majority of physics engines all use this representation to calculate forces, velocities, impulses and more. However, it turns out that the representations are equivalent and a conversion exists between them. The example below highlights this. </p>
+
 <h2> Constructing Trajectories from Input </h2>
 
 <h4> Launch Angles vs Velocity Vectors </h4>
