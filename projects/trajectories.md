@@ -17,9 +17,9 @@ title: "Trajectories"
   <tr> <td> Angle representation </td> <td> Vector Representation </td> </tr>  
 <\table>
 
-Some simple vector geometry provides the following conversions from \((x,y)\\) to \(l\) and \(\theta_y\):
+Some simple vector geometry provides the following conversions from \((x,y)\) to \(l\) and \(\theta_y\):
 
-$$l = |(x,y)| = \sqrt(x^2+y^2)$$
+$$l = |(x,y)| = \sqrt{(x^2+y^2)}$$
 $$\theta_y = \tan^{-1}(\frac{y}{x})$$
 
 The reverse conversion is given by the equations:
