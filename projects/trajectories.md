@@ -11,6 +11,10 @@ title: "Trajectories"
 
 <h1> Implementing Trajectories in Games </h1>
 
+This project will analyse some different methods of constructing trajectories from player input. It also features some code written to keep the endpoint of a trajectory stable whilst one component of the trajectory in 3-dimensional space is altered, as well as a discussion of the mathematics behind this approach. The trajectories have been implemented in 2D using the Godot Engine (see <a href="">this project</a> for more details) and in 3D using Unreal Engine (see <a href="">this project</a> for more details).
+
+<h4> Launch Angles vs Velocity Vectors </h4>
+
 <p>Generally, there are two main ways to represent trajectories in 3D space - as a length \(l\) and angles from the origin \((\theta_y,\theta_z)\) or as a 3-dimensional vector \((x,y,z)\). Within game development, it is more natural to use the vector representation - the majority of physics engines all use this representation to calculate forces, velocities, impulses and more. However, it turns out that the representations are equivalent anyway, and a conversion exists between them. The example below highlights this for a simple case in 2D - we can convert the trajectory represented by length \(l\) and angle \(\theta_y\) to the same trajectory represented by the vector \((x,y)\) </p>
 
 <table>
@@ -31,7 +35,7 @@ Hence, since the conversion between trajectory representations is linear in its 
 
 <h2> Constructing Trajectories from Input </h2>
 
-<h4> Launch Angles vs Velocity Vectors </h4>
+In this section, we will consider a few methods of constructing a trajectory from player input. The difference between each method is essentially how many sources of input to take. With more sources of input, the player generally has a higher degree of precision. However, this does come at the cost of making the control scheme more complex and potentially lengthening the aiming process. This tradeoff should be carefully considered with regards to the design intent of the game being developed.
 
 <h4> Single Input (2D) </h4>
 
