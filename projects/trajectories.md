@@ -44,7 +44,27 @@ In this section, we will consider a few methods of constructing a trajectory fro
 
 <h4> Single Input (2D) </h4>
 
+Calculating a trajectory \((x,y)\) with a single input is possible in 2D. In my 2D Golf project, I use the user's mouse position to populate the trajectory vector \((x,y)\) with the following calculation:
+
+$$(x,y) = (mouse_x - target_x, mouse_y - target_y)$$
+
+Where \(mouse_x\) is the x-component of the mouse position and \(target_x\) is the x-component of the projectile to be launched. This method is quick and allows the user to generate any possible trajectory with only a single input (mouse movement).
+
+<table>
+  Trajectory calculation in 2D Golf
+</table>
+
 <h4> Double Input (2D) </h4>
+
+For increased precision or to introduce additional gameplay mechanics, it may be preferable in some cases to calculate a trajectory in 2D using two input sources. Typically, this takes the form of first determining the direction of the trajectory and then determining the 'strength' of the launch. Mathematically, this is equivalent to detrmining a unit vector \((x_0,y_0)\) of length one and then scaling it by a scalar 'strength' number \(s\). The final trajectory is then:
+
+$$(x,y) = (x_0,y_0) \times s = (sx_0,sy_0)$$
+
+This is commonly seen in games like Golf Story (shown below), where the player first uses mouse/cursor movement to determine a direction unit vector \((x_0,y_0)\) and then interacts in some way with a 'strength' user interface (usually timing-based).
+
+<table>
+  Golf Story
+<\table>
 
 <h4> Double Input (3D) </h4>
 
