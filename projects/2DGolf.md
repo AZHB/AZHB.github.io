@@ -257,4 +257,31 @@ As you can see in the prototype level below, each flipper can then be customised
 
 In order to create more variety in level designs, the static ojects in my game have properties that can be changed and modified to effect collisions in different ways. This allows me to simulate a range of different surface types. The demonstrations below show prototype version of ice, sand and a regular surface. 
 
+<table style="margin-left:auto;margin-right:auto;margin-top:40px;width:95%">
+	<tr>
+	<td> <img src="https://azhb.github.io/NormalSurface.gif" alt="Regular"> </td> 
+	</tr>
+	<tr>
+		<td style="text-align:center"> Regular </td>
+	</tr>
+</table>
+
+<table style="margin-left:auto;margin-right:auto;margin-top:40px;width:95%">
+	<tr>
+	<td> <img src="https://azhb.github.io/IceSurface.gif" alt="Ice"> </td> 
+	</tr>
+	<tr>
+		<td style="text-align:center"> Ice (Low Friction) </td>
+	</tr>
+</table>
+
+<table style="margin-left:auto;margin-right:auto;margin-top:40px;width:95%">
+	<tr>
+	<td> <img src="https://azhb.github.io/SandSurface.gif" alt="Sand"> </td> 
+	</tr>
+	<tr>
+		<td style="text-align:center"> Sand (Low Bounce) </td>
+	</tr>
+</table>
+
 <h2 style="text-align:center"> <a href="https://azhb.github.io/"> Return Home </a> </h2>
