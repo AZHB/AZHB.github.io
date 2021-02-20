@@ -206,5 +206,9 @@ $$\alpha^2 = \frac{z^2}{\overline{z}^2}$$
 and finally, as claimed earlier, we have our scale factor:
 
 $$\alpha = \frac{z}{\overline{z}}$$
+
+and corresponding scaled trajectory with the same endpoint:
+
+$$(\overline{x},\overline{y},\overline{z}) = \left(\frac{z}{\overline{z}}x,\frac{z}{\overline{z}}y,\overline{z}\right)$$
 </p>
 
