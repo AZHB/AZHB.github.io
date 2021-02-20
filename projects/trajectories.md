@@ -170,16 +170,19 @@ $$t = \frac{2z}{g}$$
 
 Now that we have the time it takes for the projectile to return to the ground plane, we can calculate the total distance travelled. Considering movement in the direction \(x+y\) now, we return to the equation \(s = ut + \frac{1}{2}at^2\) where:
 
-$$u = x+y$$
+$$u = |x+y|$$
 $$a = 0$$
 $$t = \frac{2z}{g}$$
 
 Note that we could have \(a=-l\) for some linear damping factor \(l\), which is a common inclusion in most game engines. However, this ends up having no bearing on the result and so is ommited here for simplicity. Solving this equation gives us the total distance travelled in the line \(x+y\) and hence the endpoint:
 
-$$s = \frac{2z(x+y)}{g}$$
+$$s = \frac{2z|x+y|}{g}$$
 </p>
 
 <h4> Determining the scale factor \(\alpha\) </h4>
 
+<p>
 It remains to calculate the scale factor \(alpha\).
+  
+</p>
 
