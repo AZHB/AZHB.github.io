@@ -76,14 +76,14 @@ This is commonly seen in games like Golf Story (shown below), where the player f
 It is of course not possible to populate a trajectory vector in 3D space \((x,y,z)\) by using only mouse movement - there will be some trajectories that simply cannot be made, as even with predetermined \(x\) and \(y\) components there are an infinite number of trajectories as \(z\) varies. Hence, we must use at least two input sources. In my 3D golf prototype, I decided to use the mouse movement to determine the \(x\) and \(y\) components of the trajectory and the mouse wheel to determine the \(z\) component. This results in an intuitive and fast method of producing trajectories, whilst retaining a good level of precision.
 </p>
 
-<table>
+<table style="margin-left:auto;margin-right:auto;margin-top:40px;width:75%">
   <tr> <td> blueprints here </td> </tr>
-  <tr> <td> Replace with code when possible </td> </tr>
+  <tr> <td style="text-align:center"> Replace with code when possible </td> </tr>
 </table>
 
-<table>
+<table style="margin-left:auto;margin-right:auto;margin-top:40px;width:75%">
   <tr> <td> gif here </td> </tr>
-  <tr> <td> Trajectory </td> </tr>
+  <tr> <td style="text-align:center"> Trajectory </td> </tr>
 </table>
 
 <p>
