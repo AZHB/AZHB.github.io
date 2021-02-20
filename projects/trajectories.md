@@ -82,8 +82,8 @@ It is of course not possible to populate a trajectory vector in 3D space \((x,y,
 </table>
 
 <table style="margin-left:auto;margin-right:auto;margin-top:40px;width:75%">
-  <tr> <td> gif here </td> </tr>
-  <tr> <td style="text-align:center"> Trajectory </td> </tr>
+  <tr> <td> <img src="https://azhb.github.io/Trajectory3DNaive.gif"> </td> </tr>
+  <tr> <td style="text-align:center"> Generating a Trajectory in 3D with Two Inputs </td> </tr>
 </table>
 
 <p>
