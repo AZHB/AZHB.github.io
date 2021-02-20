@@ -146,9 +146,40 @@ We need to make sure that both trajectories \((x,y,z)\) and (\overline{x},\overl
   <tr> <td style="text-align:center"> Reducing the Problem to 2 Dimensions </td> </tr>
 </table>
 
-<p> We can now use the equations of motion (with constant acceleration) to calculate the total distance travelled \(s\):
+<p> We can now use the equations of motion (with constant acceleration) to calculate the total distance travelled \(s\) under the initial trajectory \((x,y,z)\):
 
-$$
+$$s = ut + \frac{1}{2}at^2$$
+
+where
+
+$$u = \text{Initial Velocity}$$
+$$t = \text{Time elapsed}$$
+$$a = \text{Accelleration}$$
+
+Since we have a number of unkown variables, we begin by considering movement only in the 'upwards' \(z\) direction. This will allow us to calculate the time that it takes for the projectile to hit the ground after launch. Here, we have that:
+
+$$u = z$$
+$$a = -g$$
+$$s = 0$$
+
+where \(g\) is the gravitational constant (usually 9.8 in most game engines) and \(s=0\) because we want the time elapsed when the projectile is at distance 0 - it has returned to the ground plane. Solving this equation, where \(t \neq 0\), we obtain:
+
+$$0 = zt - \frac{1}{2}gt^2$$
+$$\frac{1}{2}gt = z$$
+$$t = \frac{2z}{g}$$
+
+Now that we have the time it takes for the projectile to return to the ground plane, we can calculate the total distance travelled. Considering movement in the direction \(x+y\) now, we return to the equation \(s = ut + \frac{1}{2}at^2\) where:
+
+$$u = x+y$$
+$$a = 0$$
+$$t = \frac{2z}{g}$$
+
+Note that we could have \(a=-l\) for some linear damping factor \(l\), which is a common inclusion in most game engines. However, this ends up having no bearing on the result and so is ommited here for simplicity. Solving this equation gives us the total distance travelled in the line \(x+y\) and hence the endpoint:
+
+$$s = \frac{2z(x+y)}{g}$$
+</p>
 
 <h4> Determining the scale factor \(\alpha\) </h4>
+
+It remains to calculate the scale factor \(alpha\).
 
