@@ -115,13 +115,23 @@ Mathematically, the player is only changing the \(z\) component of the trajector
 Another observation that further simplifies this problem mathematically is that we must have both
   $$\overline{x} = \alpha x$$
   $$\overline{y} = \alpha y$$
-where $\alpha$ is a scalar constant. To see this intuitively, observe that the components \(x\) and \(y\) of a trajectory provide the 'direction' of launch and the \(z\) component the 'height'. If this relationship was not true, then the direction of the two trajectories would be different and the endpoints could never be the same. This will not be proved mathematically here, although an illustration is provided below.
+where \(\alpha\) is a scalar constant. To see this intuitively, observe that the components \(x\) and \(y\) of a trajectory provide the 'direction' of launch and the \(z\) component the 'height'. If this relationship was not true, then the direction of the two trajectories would be different and the endpoints could never be the same. This will not be proved mathematically here, although an illustration is provided below.
 </p>
 
 <table style="margin-left:auto;margin-right:auto;margin-top:40px;width:75%">
   <tr> <td> <img src="https://azhb.github.io/TrajectoryScalingProof.png"> </td> </tr>
   <tr> <td style="text-align:center"> Trajectory Corrected </td> </tr>
 </table>
+
+Whilst the mathematical proof is somewhat complicated, it turns out that the solution is surprisingly simple:
+
+$$\alpha = \frac{z}{\overline{z}}$$
+
+and so we can simply scale our \(x\) and \(y\) component by this factor as described previously to obtain our new trajectory:
+
+$$(\overline{x},\overline{y},\overline{z}) = (\frac{z}{\overline{z}}x,\frac{z}{\overline{z}}y,\overline{z})$$
+
+For details of the proof, and how I arrived at this conclusion, see the next few sections!
 
 <h4> Determining the Endpoint Location </h4>
 
