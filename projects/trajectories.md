@@ -137,5 +137,16 @@ For details of the proof, and how I arrived at this conclusion, see the next few
 
 <h4> Determining the Endpoint Location </h4>
 
+<p>
+We need to make sure that both trajectories \((x,y,z)\) and (\overline{x},\overline{y},\overline{z})\) have the same endpoint. In other words, they need to travel the same distance along the line \(\alpha(x+y)\) as demonstrated earlier. We can reduce the problem to 2 dimensions by considering the trajectory in the plane parallel to the lines \(x+y\) and \(z\) as pictured below, where \(t\) is the initial trajectory.
+</p>
+
+<table style="margin-left:auto;margin-right:auto;margin-top:40px;width:75%">
+  <tr> <td> <img src="https://azhb.github.io/TrajectoryReduction.png"> </td> </tr>
+  <tr> <td style="text-align:center"> Reducing the Problem to 2 Dimensions </td> </tr>
+</table>
+
+
+
 <h4> Determining the scale factor \(\alpha\) </h4>
 
