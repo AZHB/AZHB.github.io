@@ -72,6 +72,24 @@ This is commonly seen in games like Golf Story (shown below), where the player f
 
 <h4> Double Input (3D) </h4>
 
+<p>
+It is of course not possible to populate a trajectory vector in 3D space \((x,y,z)\) by using only mouse movement - there will be some trajectories that simply cannot be made, as even with predetermined \(x\) and \(y\) components there are an infinite number of trajectories as \(z\) varies. Hence, we must use at least two input sources. In my 3D golf prototype, I decided to use the mouse movement to determine the \(x\) and \(y\) components of the trajectory and the mouse wheel to determine the \(z\) component. This results in an intuitive and fast method of producing trajectories, whilst retaining a good level of precision.
+</p>
+
+<table>
+  <tr> <td> blueprints here </td> </tr>
+  <tr> <td> Replace with code when possible </td> </tr>
+</table>
+
+<table>
+  <tr> <td> gif here </td> </tr>
+  <tr> <td> Trajectory </td> </tr>
+</table>
+
+<p>
+There is one aspect of this trajectory that could be remedied - keeping the endpoint of the trajectory stable as the \(z\) component changes. As you can see in the demonstration below, as the player scrolls the mouse wheel (and consequently alters the \(z\) component) the endpoint of the trajectory moves significantly. This can make it difficult for the player to aim precisely. The next section details an efficient method to tackle this problem and keep the endpoint of the trajectory stable.
+</P>
+
 <h2> Keeping the Endpoint of a Trajectory Stable </h2>
 
 Write the solution here, explanation follows:
