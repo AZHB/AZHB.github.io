@@ -182,7 +182,29 @@ $$s = \frac{2z|x+y|}{g}$$
 <h4> Determining the scale factor \(\alpha\) </h4>
 
 <p>
-It remains to calculate the scale factor \(alpha\).
+It remains to calculate the scale factor \(\alpha\). Using the equation derived previously, we have the distance travelled under the initial trajectory \(x,y,z\):
   
+$$s = \frac{2z|x+y|}{g}$$
+
+and, following the same logic, the distance travelled under the new trajectory \((\overline{x},\overline{y},\overline{z})\):
+
+$$\overline{s} = \frac{2\overline{z}|\overline{x}+\overline{y}|}{g}$$
+
+We want the endpoint to be the same, so we can equate these two identities:
+
+$$\frac{2z|x+y|}{g} = \frac{2\overline{z}|\overline{x}+\overline{y}|}{g}$$
+$$z|x+y| = \overline{z}|\overline{x}+\overline{y}|$$
+$$z\sqrt{x^2+y^2} = \overline{z}\sqrt{\overline{x}^2+\overline{y}^2}$$
+$$z^2(x^2+y^2) = \overline{z}^2(\overline{x}^2+\overline{y}^2)$$
+$$\overline{x}^2+\overline{y}^2 = \frac{z^2}{\overline{z}^2}(x^2+y^2)$$
+
+Recall that \(x,y,z\) and \(\overline{z}\) are all know quantities. Now, using the fact that \(\overline{x}=\alpha x\) and \(\overline{y}=\alpha y\), we have:
+
+$$\alpha^2(x^2+y^2) = \frac{z^2}{\overline{z}^2}(x^2+y^2)$$
+$$\alpha^2 = \frac{z^2}{\overline{z}^2}$$
+
+and finally, as claimed earlier, we have our scale factor:
+
+$$\alpha = \frac{z}{\overline{z}}$$
 </p>
 
