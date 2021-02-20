@@ -123,15 +123,17 @@ where \(\alpha\) is a scalar constant. To see this intuitively, observe that the
   <tr> <td style="text-align:center"> Trajectory Corrected </td> </tr>
 </table>
 
+<p>
 Whilst the mathematical proof is somewhat complicated, it turns out that the solution is surprisingly simple:
 
 $$\alpha = \frac{z}{\overline{z}}$$
 
 and so we can simply scale our \(x\) and \(y\) component by this factor as described previously to obtain our new trajectory:
 
-$$(\overline{x},\overline{y},\overline{z}) = (\frac{z}{\overline{z}}x,\frac{z}{\overline{z}}y,\overline{z})$$
+$$(\overline{x},\overline{y},\overline{z}) = \left(\frac{z}{\overline{z}}x,\frac{z}{\overline{z}}y,\overline{z}\right)$$
 
 For details of the proof, and how I arrived at this conclusion, see the next few sections!
+</p>
 
 <h4> Determining the Endpoint Location </h4>
 
