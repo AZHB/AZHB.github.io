@@ -11,7 +11,7 @@ title: "Trajectories"
 
 <h1> Implementing Trajectories in Games </h1>
 
-This project will analyse some different methods of constructing trajectories from player input. It also features some code written to keep the endpoint of a trajectory stable whilst one component of the trajectory in 3-dimensional space is altered, as well as a discussion of the mathematics behind this approach. The trajectories have been implemented in 2D using the Godot Engine (see <a href="">this project</a> for more details) and in 3D using Unreal Engine (see <a href="">this project</a> for more details).
+This project will analyse some different methods of constructing trajectories from player input. It also features some code written to keep the endpoint of a trajectory stationary whilst one component of the trajectory in 3-dimensional space is altered, as well as a discussion of the mathematics behind this approach. The trajectories have been implemented in 2D using the Godot Engine (see <a href="">this project</a> for more details) and in 3D using Unreal Engine (see <a href="">this project</a> for more details).
 
 <h4> Launch Angles vs Velocity Vectors </h4>
 
@@ -87,18 +87,18 @@ It is of course not possible to populate a trajectory vector in 3D space \((x,y,
 </table>
 
 <p>
-There is one aspect of this trajectory that could be remedied - keeping the endpoint of the trajectory stable as the \(z\) component changes. As you can see in the demonstration below, as the player scrolls the mouse wheel (and consequently alters the \(z\) component) the endpoint of the trajectory moves significantly. This can make it difficult for the player to aim precisely. The next section details an efficient method to tackle this problem and keep the endpoint of the trajectory stable.
+There is one aspect of this trajectory that could be remedied - keeping the endpoint of the trajectory stationary as the \(z\) component changes. As you can see in the demonstration below, as the player scrolls the mouse wheel (and consequently alters the \(z\) component) the endpoint of the trajectory moves significantly. This can make it difficult for the player to aim precisely. The next section details an efficient method to tackle this problem and keep the endpoint of the trajectory stationary.
 </P>
 
-<h2> Keeping the Endpoint of a Trajectory Stable </h2>
+<h2> Keeping the Endpoint of a Trajectory stationary </h2>
 
 <p>
-This section will detail the method that I devised to stabilise the endpoint of a trajectory as one of the vector components varies - the result in-game can be seen in the demonstration below. Note that as the heigh of the trajectory is changed by the player (the \(z\) component of the trajectory), the red endpoint of the trajectory remains stable. This allows the player to have a lot more control and precision.
+This section will detail the method that I devised to stabilise the endpoint of a trajectory as one of the vector components varies - the result in-game can be seen in the demonstration below. Note that as the heigh of the trajectory is changed by the player (the \(z\) component of the trajectory), the red endpoint of the trajectory remains stationary. This allows the player to have a lot more control and precision.
 </p>
 
 <table style="margin-left:auto;margin-right:auto;margin-top:40px;width:75%">
   <tr> <td> <img src="https://azhb.github.io/Trajectory3DCorrected.gif"> </td> </tr>
-  <tr> <td style="text-align:center"> Trajectory Corrected </td> </tr>
+  <tr> <td style="text-align:center"> Keeping the Endpoint of a Trajectory Stationary in 3D Space </td> </tr>
 </table>
 
 <h4> Problem Definition </h4>
