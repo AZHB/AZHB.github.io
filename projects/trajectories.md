@@ -110,8 +110,8 @@ Mathematically, the player is only changing the \(z\) component of the trajector
 <p>
 Another observation that further simplifies this problem mathematically is that we must have both
   $$\overline{x} = \alpha x$$
-  $$\overline{y} = \alpha y&&
-where $\alpha$ is a scalar constant. To see this intuitively, observe that the components \(x\) and \(y\) of a trajectory provide the 'direction' of launch and the \(z\) component the 'height'. If this relationship was not true, then the direction of the two trajectories would be different and the endpoints would be different regardless of the value of \(\overline{z}\). 
+  $$\overline{y} = \alpha y$$
+where $\alpha$ is a scalar constant. To see this intuitively, observe that the components \(x\) and \(y\) of a trajectory provide the 'direction' of launch and the \(z\) component the 'height'. If this relationship was not true, then the direction of the two trajectories would be different and the endpoints would be different regardless of the value of \(\overline{z}\). This will not be proved mathematically here, although the proof is not complex. 
 </p>
 
 <h4> Determining the Endpoint Location </h4>
