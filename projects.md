@@ -75,7 +75,7 @@ Recent Projects
         <li>  Big-O Notation </li>
       </ul>
       
-      <h3> <a href="">Source Code</a> </h3>
+      <h3> <a href="https://github.com/AZHB/risk-battle-calculator">Source Code</a> </h3>
     </td>
   </tr>
 </table>
@@ -100,7 +100,7 @@ Recent Projects
         <li>  Automated Testing </li>
       </ul>
       
-      <h3> <a href="">Source Code</a> </h3>
+      <h3> <a href="https://github.com/AZHB/heuristic-analysis">Source Code</a> </h3>
     </td>
   </tr>
 </table>
