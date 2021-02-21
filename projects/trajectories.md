@@ -59,6 +59,22 @@ Where \(mouse_x\) is the x-component of the mouse position and \(target_x\) is t
   <tr> <td style="text-align:center"> Generating a trajectory with a single input </td> </tr>
 </table>
 
+The code block below demonstrates this technique. The line of particular relevance is the funcion call to apply_central_impulse(). Note that the trajectory vector passed as an argument is first clamped to a predetermined value (max_impulse) before being multiplied by the scalar shot_power. This imposes a limit on the power that the user can generate. 
+
+```gdscript
+func attempt_shot(click_position):
+	if ready and can_shoot:
+		apply_central_impulse((click_position-position).clamped(max_impulse)*shot_power)
+		ready = false
+		tracking = false
+		shot_tracer.clear_trace()
+		friction_timer.start()
+		if player_man.shot_taken():
+			can_shoot = true
+		else:
+			can_shoot = false
+```
+
 <h4> Double Input (2D) </h4>
 
 <p>
