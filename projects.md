@@ -90,6 +90,8 @@ Recent Projects
         <li>  Time Complexity Analysis </li>
         <li>  Big-O Notation </li>
         <li>  Heuristic Methods </li>
+        <li>  Random Generation </li>
+        <li>  Automated Testing </li>
       </ul>
     </td>
   </tr>
