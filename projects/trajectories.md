@@ -120,7 +120,7 @@ where \(\alpha\) is a scalar constant. To see this intuitively, observe that the
 
 <table style="margin-left:auto;margin-right:auto;margin-top:40px;width:75%">
   <tr> <td> <img src="https://azhb.github.io/TrajectoryScalingProof.png"> </td> </tr>
-  <tr> <td style="text-align:center"> Trajectory Corrected </td> </tr>
+  <tr> <td style="text-align:center"> Scaling a trajectory by a scalar </td> </tr>
 </table>
 
 <p>
