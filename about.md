@@ -13,6 +13,6 @@ hobbyist programmer to help drive collaboration and communication within a softw
 producing high quality and carefully considered code.
 
 
-<img src="https://azhb.github.io/websiteTimeline.png" alt="2DGolf Splash" width="100%">
+<img src="https://azhb.github.io/websiteTimeline.png" alt="2DGolf Splash" width="100%" style="margin-top:40px;margin-bottom:40px">
 
 <h2> <a href="azhb.github.io"> Return Home </a> </h2>
