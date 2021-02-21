@@ -130,4 +130,4 @@ Recent Projects
   </tr>
 </table>
 
-<h2> <a href="azhb.github.io"> Return Home </a> </h2>
+<h2 style="text-align:center"> <a href="https://azhb.github.io/"> Return Home </a> </h2>
