@@ -79,7 +79,7 @@ Recent Projects
 
 <table>
   <tr>
-    <td style="width:320px"> <img src="https://azhb.github.io/websitePropositionalFormula.png" alt="Risk" width="320"> </td>
+    <td style="width:320px"> <img src="https://azhb.github.io/websiteSATGraph1.PNG" alt="SAT Graph" width="320"> <img src="https://azhb.github.io/websiteSATGraph2.PNG" alt="SAT Graph" width="320"> </td>
     <td style="vertical-align:top"> <h3> About </h3>
          The implementation of a 'brute force' algorithm that solves the Binary Satisfiability Problem in a non-polynomially bounded amount of time. A more efficient heuristic 'one-flip local search' algorithm is also implemented. The source code (C++) includes a number of helper classes and functions, including functionality to compare and output results in various file formats.
       <h3> Tags </h3>
