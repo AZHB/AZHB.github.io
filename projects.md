@@ -34,7 +34,7 @@ Recent Projects
 
 <table>
   <tr>
-    <td style="width:320px">  </td>
+    <td style="width:320px"> <img src="https://azhb.github.io/TrajectoryScalingProof.png" alt="Scaling a trajectory" width="320"> <img src="https://azhb.github.io/websiteMaths.PNG" alt="Mathematics" width="320"> </td>
     <td style="vertical-align:top"> <h3> About </h3>
          A brief analysis of the main ways of implementing player-controlled trajectories in video games, accompanied by code (written in C++) that keeps the endpoint of a trajectory in place even whilst one trajectory parameter is varied.
       <h3> Tags </h3>
@@ -69,6 +69,27 @@ Recent Projects
         <li>  Random Number Generation </li>
         <li>  Runtime Analysis </li>
         <li>  Big-O Notation </li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<a href="https://azhb.github.io/projects/SAT"> Solving the Binary Satisfiability Problem (SAT) </a>
+--------
+
+<table>
+  <tr>
+    <td style="width:320px">  </td>
+    <td style="vertical-align:top"> <h3> About </h3>
+         The implementation of a 'brute force' algorithm that solves the Binary Satisfiability Problem in a non-polynomially bounded amount of time. A more efficient heuristic 'one-flip local search' algorithm is also implemented. The source code (C++) includes a number of helper classes and functions, including functionality to compare and output results in various file formats.
+      <h3> Tags </h3>
+      <ul>
+        <li>  C++ </li>
+        <li>  Mathematics </li>
+        <li>  Algorithm Design </li>
+        <li>  Time Complexity Analysis </li>
+        <li>  Big-O Notation </li>
+        <li>  Heuristic Methods </li>
       </ul>
     </td>
   </tr>
