@@ -15,4 +15,4 @@ producing high quality and carefully considered code.
 
 <img src="https://azhb.github.io/websiteTimeline.png" alt="2DGolf Splash" width="100%" style="margin-top:40px;margin-bottom:40px">
 
-<h2> <a href="azhb.github.io"> Return Home </a> </h2>
+<h2 style="text-align:center"> <a href="azhb.github.io"> Return Home </a> </h2>
