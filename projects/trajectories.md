@@ -212,5 +212,5 @@ and corresponding scaled trajectory with the same endpoint:
 $$(\overline{x},\overline{y},\overline{z}) = \left(\frac{z}{\overline{z}}x,\frac{z}{\overline{z}}y,\overline{z}\right)$$
 </p>
 
-<h2> <a href="azhb.github.io"> Return Home </a> </h2>
+<h2 style="text-align:center"> <a href="https://azhb.github.io/"> Return Home </a> </h2>
 
