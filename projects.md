@@ -74,7 +74,7 @@ Recent Projects
   </tr>
 </table>
 
-<a href="https://azhb.github.io/projects/SAT"> Solving the Binary Satisfiability Problem (SAT) </a>
+<a href="https://azhb.github.io/HeuristicAlgorithms.pdf"> Solving the Binary Satisfiability Problem (SAT) </a>
 --------
 
 <table>
