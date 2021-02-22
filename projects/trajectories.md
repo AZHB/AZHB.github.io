@@ -96,16 +96,6 @@ This is commonly seen in games like Golf Story (shown below), where the player f
 It is of course not possible to populate a trajectory vector in 3D space \((x,y,z)\) by using only mouse movement - there will be some trajectories that simply cannot be made, as even with predetermined \(x\) and \(y\) components there are an infinite number of trajectories as \(z\) varies. Hence, we must use at least two input sources. In my 3D golf prototype, I decided to use the mouse movement to determine the \(x\) and \(y\) components of the trajectory and the mouse wheel to determine the \(z\) component. This results in an intuitive and fast method of producing trajectories, whilst retaining a good level of precision.
 </p>
 
-```cpp
-void APlayerBallController::scaleTrajectory(float oldZ, float newZ)
-{
-	float alpha = oldZ / newZ;
-	currentX = currentX * alpha;
-	currentY = currentY * alpha;
-	return;
-}
-```
-
 <table style="margin-left:auto;margin-right:auto;margin-top:40px;width:75%">
   <tr> <td> <img src="https://azhb.github.io/Trajectory3DNaive.gif"> </td> </tr>
   <tr> <td style="text-align:center"> Generating a Trajectory in 3D with Two Inputs </td> </tr>
@@ -232,6 +222,18 @@ and corresponding scaled trajectory with the same endpoint:
 
 $$(\overline{x},\overline{y},\overline{z}) = \left(\frac{z}{\overline{z}}x,\frac{z}{\overline{z}}y,\overline{z}\right)$$
 </p>
+
+The following code block demonstrates how this can be used to scale a trajectory whilst keeping a stationary end point. This function is called each time that the player tries to adjust the \(z\) component of the trajectory - it simply scales both the \(x\) and \(y\) components according to the mathematics above:
+
+```cpp
+void APlayerBallController::scaleTrajectory(float oldZ, float newZ)
+{
+	float alpha = oldZ / newZ;
+	currentX = currentX * alpha;
+	currentY = currentY * alpha;
+	return;
+}
+```
 
 <h2 style="text-align:center"> <a href="https://azhb.github.io/"> Return Home </a> </h2>
 
